@@ -1,0 +1,2852 @@
+--------------------------------- Results from dataset of Top 2 attributes ------------------------------------------
+class attribute: @attribute class {0,1,2,3,4,5,6,7,8,9}
+=== BayesNet K2 on Top 2 - 1 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=21 #classindex=20
+Network structure (nodes followed by parents)
+pixel 1171(5): class 
+pixel 1172(5): class 
+pixel 1046(4): class 
+pixel 1094(6): class 
+pixel 1083(7): class 
+pixel 1084(7): class 
+pixel 1272(7): class 
+pixel 1649(4): class 
+pixel 1848(4): class 
+pixel 1849(6): class 
+pixel 1319(4): class 
+pixel 1367(4): class 
+pixel 1186(6): class 
+pixel 1738(4): class 
+pixel 1120(7): class 
+pixel 1168(5): class 
+pixel 1280(6): class 
+pixel 1328(6): class 
+pixel 1362(5): class 
+pixel 1364(5): class 
+class(10): 
+LogScore Bayes: -50189.239364845926
+LogScore BDeu: -53513.17087773034
+LogScore MDL: -52949.473310054105
+LogScore ENTROPY: -49626.81794567702
+LogScore AIC: -50505.81794567702
+
+=== BayesNet K2 on Top 2 - 1 parents (stats) ===
+Correctly Classified Instances         238               49.5833 %
+Incorrectly Classified Instances       242               50.4167 %
+Kappa statistic                          0.4398
+Mean absolute error                      0.1052
+Root mean squared error                  0.2899
+Relative absolute error                 58.4714 %
+Root relative squared error             96.6172 %
+Total Number of Instances              480     
+
+=== BayesNet K2 on Top 2 - 1 parents (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.542    0.171    0.260      0.542    0.351      0.274    0.804     0.250     0
+                 0.313    0.067    0.341      0.313    0.326      0.255    0.760     0.329     1
+                 0.813    0.106    0.459      0.813    0.586      0.555    0.921     0.595     2
+                 0.563    0.007    0.900      0.563    0.692      0.689    0.872     0.744     3
+                 0.354    0.021    0.654      0.354    0.459      0.442    0.744     0.487     4
+                 0.604    0.014    0.829      0.604    0.699      0.681    0.869     0.731     5
+                 0.750    0.058    0.590      0.750    0.661      0.623    0.888     0.775     6
+                 0.375    0.086    0.327      0.375    0.350      0.273    0.441     0.285     7
+                 0.083    0.002    0.800      0.083    0.151      0.239    0.654     0.288     8
+                 0.563    0.028    0.692      0.563    0.621      0.587    0.898     0.684     9
+Weighted Avg.    0.496    0.056    0.585      0.496    0.490      0.462    0.785     0.517     
+
+=== BayesNet K2 on Top 2 - 1 parents (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 26 11  6  0  2  0  1  2  0  0 |  a = 0
+ 17 15  3  0  3  0  5  2  0  3 |  b = 1
+  3  0 39  1  0  0  0  5  0  0 |  c = 2
+  9  1  3 27  3  0  0  2  1  2 |  d = 3
+  2  0  6  2 17  1  2 16  0  2 |  e = 4
+  8  1  1  0  0 29  4  1  0  4 |  f = 5
+  9  0  1  0  1  0 36  1  0  0 |  g = 6
+ 15  0 15  0  0  0  0 18  0  0 |  h = 7
+  8  7  8  0  0  1 11  8  4  1 |  i = 8
+  3  9  3  0  0  4  2  0  0 27 |  j = 9
+
+=== BayesNet K2 on Top 2 - 2 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=21 #classindex=20
+Network structure (nodes followed by parents)
+pixel 1171(5): class 
+pixel 1172(5): class pixel 1171 
+pixel 1046(4): class pixel 1171 
+pixel 1094(6): class pixel 1046 
+pixel 1083(7): class pixel 1171 
+pixel 1084(7): class pixel 1083 
+pixel 1272(7): class pixel 1084 
+pixel 1649(4): class pixel 1084 
+pixel 1848(4): class pixel 1084 
+pixel 1849(6): class pixel 1848 
+pixel 1319(4): class pixel 1272 
+pixel 1367(4): class pixel 1319 
+pixel 1186(6): class pixel 1083 
+pixel 1738(4): class pixel 1649 
+pixel 1120(7): class pixel 1083 
+pixel 1168(5): class pixel 1120 
+pixel 1280(6): class pixel 1084 
+pixel 1328(6): class pixel 1280 
+pixel 1362(5): class pixel 1084 
+pixel 1364(5): class pixel 1272 
+class(10): 
+LogScore Bayes: -33613.077320767705
+LogScore BDeu: -62067.84802369027
+LogScore MDL: -55692.315408534756
+LogScore ENTROPY: -36531.29146993711
+LogScore AIC: -41600.29146993708
+
+=== BayesNet K2 on Top 2 - 2 parents (stats) ===
+Correctly Classified Instances         334               69.5833 %
+Incorrectly Classified Instances       146               30.4167 %
+Kappa statistic                          0.662 
+Mean absolute error                      0.0699
+Root mean squared error                  0.2077
+Relative absolute error                 38.8122 %
+Root relative squared error             69.2402 %
+Total Number of Instances              480     
+
+=== BayesNet K2 on Top 2 - 2 parents (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.458    0.095    0.349      0.458    0.396      0.323    0.874     0.472     0
+                 0.458    0.069    0.423      0.458    0.440      0.375    0.900     0.490     1
+                 0.750    0.051    0.621      0.750    0.679      0.643    0.964     0.730     2
+                 0.771    0.002    0.974      0.771    0.860      0.854    0.981     0.924     3
+                 0.771    0.042    0.673      0.771    0.718      0.687    0.938     0.800     4
+                 0.854    0.005    0.953      0.854    0.901      0.892    0.992     0.963     5
+                 0.854    0.009    0.911      0.854    0.882      0.870    0.959     0.930     6
+                 0.375    0.023    0.643      0.375    0.474      0.450    0.480     0.383     7
+                 0.771    0.025    0.771      0.771    0.771      0.745    0.946     0.807     8
+                 0.896    0.016    0.860      0.896    0.878      0.864    0.995     0.962     9
+Weighted Avg.    0.696    0.034    0.718      0.696    0.700      0.670    0.903     0.746     
+
+=== BayesNet K2 on Top 2 - 2 parents (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 22 16  4  0  0  0  2  0  2  2 |  a = 0
+ 19 22  0  0  2  1  0  2  2  0 |  b = 1
+  1  1 36  0  2  0  0  5  3  0 |  c = 2
+  3  5  1 37  1  0  0  0  0  1 |  d = 3
+  1  1  3  0 37  0  0  3  2  1 |  e = 4
+  1  3  0  0  0 41  0  0  0  3 |  f = 5
+  4  0  1  0  1  0 41  0  1  0 |  g = 6
+  9  0  9  1 10  0  0 18  1  0 |  h = 7
+  3  3  1  0  2  0  2  0 37  0 |  i = 8
+  0  1  3  0  0  1  0  0  0 43 |  j = 9
+
+=== BayesNet K2 on Top 2 - 3 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=21 #classindex=20
+Network structure (nodes followed by parents)
+pixel 1171(5): class 
+pixel 1172(5): class pixel 1171 
+pixel 1046(4): class pixel 1171 
+pixel 1094(6): class pixel 1046 
+pixel 1083(7): class pixel 1171 
+pixel 1084(7): class pixel 1083 pixel 1172 
+pixel 1272(7): class pixel 1084 
+pixel 1649(4): class pixel 1084 
+pixel 1848(4): class pixel 1084 
+pixel 1849(6): class pixel 1848 
+pixel 1319(4): class pixel 1272 
+pixel 1367(4): class pixel 1319 
+pixel 1186(6): class pixel 1083 
+pixel 1738(4): class pixel 1649 pixel 1272 
+pixel 1120(7): class pixel 1083 
+pixel 1168(5): class pixel 1120 
+pixel 1280(6): class pixel 1084 
+pixel 1328(6): class pixel 1280 
+pixel 1362(5): class pixel 1084 
+pixel 1364(5): class pixel 1272 pixel 1362 
+class(10): 
+LogScore Bayes: -33545.16605017616
+LogScore BDeu: -89160.74908981376
+LogScore MDL: -72383.94044065752
+LogScore ENTROPY: -39917.174883621345
+LogScore AIC: -48506.17488362132
+
+=== BayesNet K2 on Top 2 - 3 parents (stats) ===
+Correctly Classified Instances         333               69.375  %
+Incorrectly Classified Instances       147               30.625  %
+Kappa statistic                          0.6597
+Mean absolute error                      0.0686
+Root mean squared error                  0.2088
+Relative absolute error                 38.1008 %
+Root relative squared error             69.607  %
+Total Number of Instances              480     
+
+=== BayesNet K2 on Top 2 - 3 parents (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.500    0.093    0.375      0.500    0.429      0.360    0.876     0.448     0
+                 0.479    0.067    0.442      0.479    0.460      0.398    0.894     0.478     1
+                 0.729    0.037    0.686      0.729    0.707      0.674    0.966     0.757     2
+                 0.750    0.005    0.947      0.750    0.837      0.828    0.986     0.935     3
+                 0.833    0.063    0.597      0.833    0.696      0.667    0.941     0.803     4
+                 0.854    0.005    0.953      0.854    0.901      0.892    0.989     0.955     5
+                 0.813    0.009    0.907      0.813    0.857      0.844    0.960     0.930     6
+                 0.354    0.016    0.708      0.354    0.472      0.465    0.486     0.378     7
+                 0.729    0.025    0.761      0.729    0.745      0.717    0.950     0.805     8
+                 0.896    0.021    0.827      0.896    0.860      0.845    0.994     0.957     9
+Weighted Avg.    0.694    0.034    0.720      0.694    0.696      0.669    0.904     0.744     
+
+=== BayesNet K2 on Top 2 - 3 parents (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 24 15  4  0  0  0  2  0  2  1 |  a = 0
+ 18 23  0  0  2  0  0  1  3  1 |  b = 1
+  2  1 35  0  4  0  0  4  2  0 |  c = 2
+  5  4  0 36  2  0  0  0  0  1 |  d = 3
+  0  1  1  1 40  0  0  2  2  1 |  e = 4
+  1  2  0  0  0 41  0  0  0  4 |  f = 5
+  2  2  1  0  1  1 39  0  1  1 |  g = 6
+  9  0  5  1 15  0  0 17  1  0 |  h = 7
+  3  3  2  0  3  0  2  0 35  0 |  i = 8
+  0  1  3  0  0  1  0  0  0 43 |  j = 9
+
+=== BayesNet K2 on Top 2 - 4 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=21 #classindex=20
+Network structure (nodes followed by parents)
+pixel 1171(5): class 
+pixel 1172(5): class pixel 1171 
+pixel 1046(4): class pixel 1171 
+pixel 1094(6): class pixel 1046 
+pixel 1083(7): class pixel 1171 
+pixel 1084(7): class pixel 1083 pixel 1172 
+pixel 1272(7): class pixel 1084 
+pixel 1649(4): class pixel 1084 
+pixel 1848(4): class pixel 1084 
+pixel 1849(6): class pixel 1848 
+pixel 1319(4): class pixel 1272 
+pixel 1367(4): class pixel 1319 
+pixel 1186(6): class pixel 1083 
+pixel 1738(4): class pixel 1649 pixel 1272 
+pixel 1120(7): class pixel 1083 
+pixel 1168(5): class pixel 1120 
+pixel 1280(6): class pixel 1084 
+pixel 1328(6): class pixel 1280 
+pixel 1362(5): class pixel 1084 
+pixel 1364(5): class pixel 1272 pixel 1362 
+class(10): 
+LogScore Bayes: -33545.16605017616
+LogScore BDeu: -89160.74908981376
+LogScore MDL: -72383.94044065752
+LogScore ENTROPY: -39917.174883621345
+LogScore AIC: -48506.17488362132
+
+=== BayesNet K2 on Top 2 - 4 parents (stats) ===
+Correctly Classified Instances         333               69.375  %
+Incorrectly Classified Instances       147               30.625  %
+Kappa statistic                          0.6597
+Mean absolute error                      0.0686
+Root mean squared error                  0.2088
+Relative absolute error                 38.1008 %
+Root relative squared error             69.607  %
+Total Number of Instances              480     
+
+=== BayesNet K2 on Top 2 - 4 parents (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.500    0.093    0.375      0.500    0.429      0.360    0.876     0.448     0
+                 0.479    0.067    0.442      0.479    0.460      0.398    0.894     0.478     1
+                 0.729    0.037    0.686      0.729    0.707      0.674    0.966     0.757     2
+                 0.750    0.005    0.947      0.750    0.837      0.828    0.986     0.935     3
+                 0.833    0.063    0.597      0.833    0.696      0.667    0.941     0.803     4
+                 0.854    0.005    0.953      0.854    0.901      0.892    0.989     0.955     5
+                 0.813    0.009    0.907      0.813    0.857      0.844    0.960     0.930     6
+                 0.354    0.016    0.708      0.354    0.472      0.465    0.486     0.378     7
+                 0.729    0.025    0.761      0.729    0.745      0.717    0.950     0.805     8
+                 0.896    0.021    0.827      0.896    0.860      0.845    0.994     0.957     9
+Weighted Avg.    0.694    0.034    0.720      0.694    0.696      0.669    0.904     0.744     
+
+=== BayesNet K2 on Top 2 - 4 parents (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 24 15  4  0  0  0  2  0  2  1 |  a = 0
+ 18 23  0  0  2  0  0  1  3  1 |  b = 1
+  2  1 35  0  4  0  0  4  2  0 |  c = 2
+  5  4  0 36  2  0  0  0  0  1 |  d = 3
+  0  1  1  1 40  0  0  2  2  1 |  e = 4
+  1  2  0  0  0 41  0  0  0  4 |  f = 5
+  2  2  1  0  1  1 39  0  1  1 |  g = 6
+  9  0  5  1 15  0  0 17  1  0 |  h = 7
+  3  3  2  0  3  0  2  0 35  0 |  i = 8
+  0  1  3  0  0  1  0  0  0 43 |  j = 9
+
+=== BayesNet TAN on Top 2  (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=21 #classindex=20
+Network structure (nodes followed by parents)
+pixel 1171(5): class pixel 1084 
+pixel 1172(5): class pixel 1171 
+pixel 1046(4): class 
+pixel 1094(6): class pixel 1046 
+pixel 1083(7): class pixel 1084 
+pixel 1084(7): class pixel 1849 
+pixel 1272(7): class pixel 1084 
+pixel 1649(4): class pixel 1084 
+pixel 1848(4): class pixel 1849 
+pixel 1849(6): class pixel 1094 
+pixel 1319(4): class pixel 1272 
+pixel 1367(4): class pixel 1319 
+pixel 1186(6): class pixel 1328 
+pixel 1738(4): class pixel 1649 
+pixel 1120(7): class pixel 1168 
+pixel 1168(5): class pixel 1084 
+pixel 1280(6): class pixel 1328 
+pixel 1328(6): class pixel 1084 
+pixel 1362(5): class pixel 1084 
+pixel 1364(5): class pixel 1084 
+class(10): 
+LogScore Bayes: -33290.88806307169
+LogScore BDeu: -62229.02170254482
+LogScore MDL: -55715.8837238124
+LogScore ENTROPY: -36252.456566613706
+LogScore AIC: -41401.4565666137
+
+=== BayesNet TAN on Top 2 (stats) ===
+Correctly Classified Instances         314               65.4167 %
+Incorrectly Classified Instances       166               34.5833 %
+Kappa statistic                          0.6157
+Mean absolute error                      0.073 
+Root mean squared error                  0.215 
+Relative absolute error                 40.5787 %
+Root relative squared error             71.6561 %
+Total Number of Instances              480     
+
+=== BayesNet TAN on Top 2 (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.542    0.100    0.377      0.542    0.444      0.378    0.885     0.547     0
+                 0.292    0.081    0.286      0.292    0.289      0.209    0.849     0.389     1
+                 0.667    0.049    0.604      0.667    0.634      0.592    0.961     0.771     2
+                 0.729    0.009    0.897      0.729    0.805      0.790    0.983     0.920     3
+                 0.729    0.063    0.565      0.729    0.636      0.596    0.921     0.763     4
+                 0.854    0.002    0.976      0.854    0.911      0.904    0.988     0.945     5
+                 0.813    0.007    0.929      0.813    0.867      0.855    0.960     0.926     6
+                 0.375    0.019    0.692      0.375    0.486      0.472    0.519     0.345     7
+                 0.688    0.035    0.688      0.688    0.688      0.653    0.939     0.789     8
+                 0.854    0.021    0.820      0.854    0.837      0.818    0.990     0.938     9
+Weighted Avg.    0.654    0.038    0.683      0.654    0.660      0.627    0.900     0.733     
+
+=== BayesNet TAN on Top 2  (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 26 15  2  0  1  0  1  0  3  0 |  a = 0
+ 23 14  1  1  2  0  0  1  2  4 |  b = 1
+  2  2 32  0  3  0  0  4  5  0 |  c = 2
+  5  5  2 35  1  0  0  0  0  0 |  d = 3
+  0  2  3  1 35  0  0  3  2  2 |  e = 4
+  0  3  0  1  0 41  0  0  0  3 |  f = 5
+  4  1  1  1  1  0 39  0  1  0 |  g = 6
+  6  0  7  0 15  0  0 18  2  0 |  h = 7
+  3  4  2  0  4  0  2  0 33  0 |  i = 8
+  0  3  3  0  0  1  0  0  0 41 |  j = 9
+
+=== BayesNet HillClimber on Top 2 - 1 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=21 #classindex=20
+Network structure (nodes followed by parents)
+pixel 1171(5): class 
+pixel 1172(5): class 
+pixel 1046(4): class 
+pixel 1094(6): class 
+pixel 1083(7): class 
+pixel 1084(7): class 
+pixel 1272(7): class 
+pixel 1649(4): class 
+pixel 1848(4): class 
+pixel 1849(6): class 
+pixel 1319(4): class 
+pixel 1367(4): class 
+pixel 1186(6): class 
+pixel 1738(4): class 
+pixel 1120(7): class 
+pixel 1168(5): class 
+pixel 1280(6): class 
+pixel 1328(6): class 
+pixel 1362(5): class 
+pixel 1364(5): class 
+class(10): 
+LogScore Bayes: -50189.239364845926
+LogScore BDeu: -53513.17087773034
+LogScore MDL: -52949.473310054105
+LogScore ENTROPY: -49626.81794567702
+LogScore AIC: -50505.81794567702
+
+=== BayesNet HillClimber - 1 parents - on Top 2 (stats) ===
+Correctly Classified Instances         238               49.5833 %
+Incorrectly Classified Instances       242               50.4167 %
+Kappa statistic                          0.4398
+Mean absolute error                      0.1052
+Root mean squared error                  0.2899
+Relative absolute error                 58.4714 %
+Root relative squared error             96.6172 %
+Total Number of Instances              480     
+
+=== BayesNet HillClimber - 1 parents - on Top 2 (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.542    0.171    0.260      0.542    0.351      0.274    0.804     0.250     0
+                 0.313    0.067    0.341      0.313    0.326      0.255    0.760     0.329     1
+                 0.813    0.106    0.459      0.813    0.586      0.555    0.921     0.595     2
+                 0.563    0.007    0.900      0.563    0.692      0.689    0.872     0.744     3
+                 0.354    0.021    0.654      0.354    0.459      0.442    0.744     0.487     4
+                 0.604    0.014    0.829      0.604    0.699      0.681    0.869     0.731     5
+                 0.750    0.058    0.590      0.750    0.661      0.623    0.888     0.775     6
+                 0.375    0.086    0.327      0.375    0.350      0.273    0.441     0.285     7
+                 0.083    0.002    0.800      0.083    0.151      0.239    0.654     0.288     8
+                 0.563    0.028    0.692      0.563    0.621      0.587    0.898     0.684     9
+Weighted Avg.    0.496    0.056    0.585      0.496    0.490      0.462    0.785     0.517     
+
+=== BayesNet HillClimber on Top - 1 parents - 2  (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 26 11  6  0  2  0  1  2  0  0 |  a = 0
+ 17 15  3  0  3  0  5  2  0  3 |  b = 1
+  3  0 39  1  0  0  0  5  0  0 |  c = 2
+  9  1  3 27  3  0  0  2  1  2 |  d = 3
+  2  0  6  2 17  1  2 16  0  2 |  e = 4
+  8  1  1  0  0 29  4  1  0  4 |  f = 5
+  9  0  1  0  1  0 36  1  0  0 |  g = 6
+ 15  0 15  0  0  0  0 18  0  0 |  h = 7
+  8  7  8  0  0  1 11  8  4  1 |  i = 8
+  3  9  3  0  0  4  2  0  0 27 |  j = 9
+
+=== BayesNet HillClimber on Top 2 - 2 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=21 #classindex=20
+Network structure (nodes followed by parents)
+pixel 1171(5): pixel 1172 pixel 1367 
+pixel 1172(5): class pixel 1084 
+pixel 1046(4): pixel 1094 
+pixel 1094(6): class pixel 1849 
+pixel 1083(7): pixel 1084 pixel 1319 
+pixel 1084(7): class pixel 1272 
+pixel 1272(7): class pixel 1319 
+pixel 1649(4): class pixel 1084 
+pixel 1848(4): pixel 1849 
+pixel 1849(6): class pixel 1362 
+pixel 1319(4): class 
+pixel 1367(4): pixel 1319 pixel 1084 
+pixel 1186(6): class pixel 1328 
+pixel 1738(4): class pixel 1649 
+pixel 1120(7): class pixel 1328 
+pixel 1168(5): pixel 1120 
+pixel 1280(6): pixel 1328 
+pixel 1328(6): class pixel 1084 
+pixel 1362(5): class pixel 1084 
+pixel 1364(5): class pixel 1272 
+class(10): 
+LogScore Bayes: -32345.18134331943
+LogScore BDeu: -53583.72221623793
+LogScore MDL: -49015.90183012544
+LogScore ENTROPY: -34443.84673379591
+LogScore AIC: -38298.846733795894
+
+=== BayesNet HillClimber - 2 parents - on Top 2 (stats) ===
+Correctly Classified Instances         310               64.5833 %
+Incorrectly Classified Instances       170               35.4167 %
+Kappa statistic                          0.6065
+Mean absolute error                      0.0804
+Root mean squared error                  0.2205
+Relative absolute error                 44.6803 %
+Root relative squared error             73.5142 %
+Total Number of Instances              480     
+
+=== BayesNet HillClimber - 2 parents - on Top 2 (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.542    0.088    0.406      0.542    0.464      0.400    0.883     0.513     0
+                 0.354    0.069    0.362      0.354    0.358      0.287    0.857     0.423     1
+                 0.854    0.065    0.594      0.854    0.701      0.675    0.964     0.773     2
+                 0.771    0.002    0.974      0.771    0.860      0.854    0.976     0.903     3
+                 0.583    0.074    0.467      0.583    0.519      0.462    0.917     0.620     4
+                 0.875    0.005    0.955      0.875    0.913      0.905    0.982     0.930     5
+                 0.833    0.009    0.909      0.833    0.870      0.857    0.953     0.920     6
+                 0.167    0.035    0.348      0.167    0.225      0.185    0.511     0.263     7
+                 0.646    0.032    0.689      0.646    0.667      0.631    0.934     0.771     8
+                 0.833    0.014    0.870      0.833    0.851      0.835    0.992     0.938     9
+Weighted Avg.    0.646    0.039    0.657      0.646    0.643      0.609    0.897     0.706     
+
+=== BayesNet HillClimber on Top - 2 parents - 2  (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 26 13  2  0  1  0  1  2  2  1 |  a = 0
+ 21 17  1  0  3  0  0  2  1  3 |  b = 1
+  2  1 41  0  1  0  0  2  1  0 |  c = 2
+  4  1  4 37  1  0  0  0  1  0 |  d = 3
+  2  2  3  0 28  1  0  7  4  1 |  e = 4
+  0  2  1  0  0 42  1  0  1  1 |  f = 5
+  2  2  1  1  1  0 40  0  1  0 |  g = 6
+  3  4  9  0 21  0  0  8  3  0 |  h = 7
+  2  4  4  0  4  0  2  1 31  0 |  i = 8
+  2  1  3  0  0  1  0  1  0 40 |  j = 9
+
+=== BayesNet HillClimber on Top 2 - 3 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=21 #classindex=20
+Network structure (nodes followed by parents)
+pixel 1171(5): pixel 1172 pixel 1367 
+pixel 1172(5): class pixel 1084 pixel 1364 
+pixel 1046(4): pixel 1094 
+pixel 1094(6): class pixel 1849 pixel 1328 
+pixel 1083(7): pixel 1084 pixel 1319 
+pixel 1084(7): class pixel 1272 
+pixel 1272(7): class pixel 1319 
+pixel 1649(4): class pixel 1084 
+pixel 1848(4): pixel 1849 
+pixel 1849(6): class pixel 1362 
+pixel 1319(4): class 
+pixel 1367(4): pixel 1319 pixel 1084 
+pixel 1186(6): class pixel 1328 pixel 1364 
+pixel 1738(4): class pixel 1649 pixel 1272 
+pixel 1120(7): class pixel 1328 
+pixel 1168(5): pixel 1120 
+pixel 1280(6): pixel 1328 
+pixel 1328(6): class pixel 1084 
+pixel 1362(5): class pixel 1084 
+pixel 1364(5): class pixel 1272 pixel 1362 
+class(10): 
+LogScore Bayes: -32255.05726754781
+LogScore BDeu: -96671.04864087891
+LogScore MDL: -75754.64322987125
+LogScore ENTROPY: -39787.56041752971
+LogScore AIC: -49302.560417529676
+
+=== BayesNet HillClimber - 3 parents - on Top 2 (stats) ===
+Correctly Classified Instances         308               64.1667 %
+Incorrectly Classified Instances       172               35.8333 %
+Kappa statistic                          0.6019
+Mean absolute error                      0.0772
+Root mean squared error                  0.2183
+Relative absolute error                 42.874  %
+Root relative squared error             72.7582 %
+Total Number of Instances              480     
+
+=== BayesNet HillClimber - 3 parents - on Top 2 (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.458    0.104    0.328      0.458    0.383      0.307    0.877     0.453     0
+                 0.333    0.079    0.320      0.333    0.327      0.250    0.871     0.404     1
+                 0.813    0.030    0.750      0.813    0.780      0.755    0.975     0.851     2
+                 0.729    0.016    0.833      0.729    0.778      0.757    0.979     0.902     3
+                 0.688    0.097    0.440      0.688    0.537      0.488    0.919     0.648     4
+                 0.854    0.007    0.932      0.854    0.891      0.881    0.978     0.927     5
+                 0.813    0.005    0.951      0.813    0.876      0.867    0.964     0.940     6
+                 0.167    0.021    0.471      0.167    0.246      0.237    0.500     0.309     7
+                 0.667    0.023    0.762      0.667    0.711      0.683    0.939     0.794     8
+                 0.896    0.016    0.860      0.896    0.878      0.864    0.993     0.954     9
+Weighted Avg.    0.642    0.040    0.665      0.642    0.641      0.609    0.900     0.718     
+
+=== BayesNet HillClimber on Top - 3 parents - 2  (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 22 17  2  0  1  0  1  1  1  3 |  a = 0
+ 24 16  1  0  2  0  1  2  0  2 |  b = 1
+  1  0 39  1  2  1  0  2  2  0 |  c = 2
+  6  5  0 35  1  0  0  0  1  0 |  d = 3
+  3  1  2  0 33  1  0  3  4  1 |  e = 4
+  1  2  1  0  1 41  0  0  1  1 |  f = 5
+  1  1  1  3  2  0 39  0  1  0 |  g = 6
+  5  5  1  0 29  0  0  8  0  0 |  h = 7
+  4  3  5  0  4  0  0  0 32  0 |  i = 8
+  0  0  0  3  0  1  0  1  0 43 |  j = 9
+
+=== BayesNet HillClimber on Top 2 - 4 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=21 #classindex=20
+Network structure (nodes followed by parents)
+pixel 1171(5): pixel 1172 pixel 1367 
+pixel 1172(5): class pixel 1084 pixel 1364 
+pixel 1046(4): pixel 1094 
+pixel 1094(6): class pixel 1849 pixel 1328 
+pixel 1083(7): pixel 1084 pixel 1319 
+pixel 1084(7): class pixel 1272 
+pixel 1272(7): class pixel 1319 
+pixel 1649(4): class pixel 1084 
+pixel 1848(4): pixel 1849 
+pixel 1849(6): class pixel 1362 
+pixel 1319(4): class 
+pixel 1367(4): pixel 1319 pixel 1084 
+pixel 1186(6): class pixel 1328 pixel 1364 
+pixel 1738(4): class pixel 1649 pixel 1272 
+pixel 1120(7): class pixel 1328 
+pixel 1168(5): pixel 1120 
+pixel 1280(6): pixel 1328 
+pixel 1328(6): class pixel 1084 
+pixel 1362(5): class pixel 1084 
+pixel 1364(5): class pixel 1272 pixel 1362 
+class(10): 
+LogScore Bayes: -32255.05726754781
+LogScore BDeu: -96671.04864087891
+LogScore MDL: -75754.64322987125
+LogScore ENTROPY: -39787.56041752971
+LogScore AIC: -49302.560417529676
+
+=== BayesNet HillClimber - 4 parents - on Top 2 (stats) ===
+Correctly Classified Instances         308               64.1667 %
+Incorrectly Classified Instances       172               35.8333 %
+Kappa statistic                          0.6019
+Mean absolute error                      0.0772
+Root mean squared error                  0.2183
+Relative absolute error                 42.874  %
+Root relative squared error             72.7582 %
+Total Number of Instances              480     
+
+=== BayesNet HillClimber - 4 parents - on Top 2 (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.458    0.104    0.328      0.458    0.383      0.307    0.877     0.453     0
+                 0.333    0.079    0.320      0.333    0.327      0.250    0.871     0.404     1
+                 0.813    0.030    0.750      0.813    0.780      0.755    0.975     0.851     2
+                 0.729    0.016    0.833      0.729    0.778      0.757    0.979     0.902     3
+                 0.688    0.097    0.440      0.688    0.537      0.488    0.919     0.648     4
+                 0.854    0.007    0.932      0.854    0.891      0.881    0.978     0.927     5
+                 0.813    0.005    0.951      0.813    0.876      0.867    0.964     0.940     6
+                 0.167    0.021    0.471      0.167    0.246      0.237    0.500     0.309     7
+                 0.667    0.023    0.762      0.667    0.711      0.683    0.939     0.794     8
+                 0.896    0.016    0.860      0.896    0.878      0.864    0.993     0.954     9
+Weighted Avg.    0.642    0.040    0.665      0.642    0.641      0.609    0.900     0.718     
+
+=== BayesNet HillClimber on Top - 4 parents - 2  (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 22 17  2  0  1  0  1  1  1  3 |  a = 0
+ 24 16  1  0  2  0  1  2  0  2 |  b = 1
+  1  0 39  1  2  1  0  2  2  0 |  c = 2
+  6  5  0 35  1  0  0  0  1  0 |  d = 3
+  3  1  2  0 33  1  0  3  4  1 |  e = 4
+  1  2  1  0  1 41  0  0  1  1 |  f = 5
+  1  1  1  3  2  0 39  0  1  0 |  g = 6
+  5  5  1  0 29  0  0  8  0  0 |  h = 7
+  4  3  5  0  4  0  0  0 32  0 |  i = 8
+  0  0  0  3  0  1  0  1  0 43 |  j = 9
+
+--------------------------------- Results from dataset of Top 5 attributes ------------------------------------------
+class attribute: @attribute class {0,1,2,3,4,5,6,7,8,9}
+=== BayesNet K2 on Top 5 - 1 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=51 #classindex=50
+Network structure (nodes followed by parents)
+pixel 1171(5): class 
+pixel 1172(5): class 
+pixel 1220(5): class 
+pixel 1468(8): class 
+pixel 1472(6): class 
+pixel 998(5): class 
+pixel 1046(4): class 
+pixel 1094(6): class 
+pixel 1142(6): class 
+pixel 1714(4): class 
+pixel 1036(6): class 
+pixel 1083(7): class 
+pixel 1084(7): class 
+pixel 1131(5): class 
+pixel 1132(5): class 
+pixel 1272(7): class 
+pixel 1369(4): class 
+pixel 1417(5): class 
+pixel 1649(4): class 
+pixel 1696(4): class 
+pixel 1237(5): class 
+pixel 1801(5): class 
+pixel 1848(4): class 
+pixel 1849(6): class 
+pixel 1850(6): class 
+pixel 1270(4): class 
+pixel 1271(4): class 
+pixel 1319(4): class 
+pixel 1367(4): class 
+pixel 1368(4): class 
+pixel 1186(6): class 
+pixel 1689(4): class 
+pixel 1738(4): class 
+pixel 1786(4): class 
+pixel 1787(4): class 
+pixel 1119(6): class 
+pixel 1120(7): class 
+pixel 1121(4): class 
+pixel 1168(5): class 
+pixel 1169(4): class 
+pixel 1232(6): class 
+pixel 1280(6): class 
+pixel 1328(6): class 
+pixel 1375(5): class 
+pixel 1470(6): class 
+pixel 1362(5): class 
+pixel 1363(4): class 
+pixel 1364(5): class 
+pixel 1410(4): class 
+pixel 1411(5): class 
+class(10): 
+LogScore Bayes: -115193.15867625215
+LogScore BDeu: -122823.97345245244
+LogScore MDL: -121540.39559832151
+LogScore ENTROPY: -113795.09316190671
+LogScore AIC: -115844.09316190671
+
+=== BayesNet K2 on Top 5 - 1 parents (stats) ===
+Correctly Classified Instances         257               53.5417 %
+Incorrectly Classified Instances       223               46.4583 %
+Kappa statistic                          0.4838
+Mean absolute error                      0.0941
+Root mean squared error                  0.294 
+Relative absolute error                 52.2559 %
+Root relative squared error             98.0162 %
+Total Number of Instances              480     
+
+=== BayesNet K2 on Top 5 - 1 parents (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.583    0.190    0.255      0.583    0.354      0.281    0.804     0.295     0
+                 0.292    0.067    0.326      0.292    0.308      0.236    0.756     0.261     1
+                 0.875    0.072    0.575      0.875    0.694      0.671    0.948     0.802     2
+                 0.646    0.007    0.912      0.646    0.756      0.747    0.895     0.796     3
+                 0.396    0.019    0.704      0.396    0.507      0.491    0.768     0.547     4
+                 0.667    0.005    0.941      0.667    0.780      0.774    0.870     0.754     5
+                 0.729    0.074    0.522      0.729    0.609      0.567    0.877     0.717     6
+                 0.375    0.067    0.383      0.375    0.379      0.311    0.451     0.289     7
+                 0.146    0.000    1.000      0.146    0.255      0.365    0.648     0.324     8
+                 0.646    0.016    0.816      0.646    0.721      0.700    0.902     0.725     9
+Weighted Avg.    0.535    0.052    0.643      0.535    0.536      0.514    0.792     0.551     
+
+=== BayesNet K2 on Top 5 - 1 parents (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 28 11  4  0  2  0  1  2  0  0 |  a = 0
+ 20 14  0  0  2  1  7  2  0  2 |  b = 1
+  2  0 42  0  0  0  0  4  0  0 |  c = 2
+  6  3  4 31  2  0  0  1  0  1 |  d = 3
+  2  0  5  3 19  0  3 14  0  2 |  e = 4
+ 10  0  0  0  0 32  3  2  0  1 |  f = 5
+ 10  0  0  0  2  0 35  1  0  0 |  g = 6
+ 22  0  8  0  0  0  0 18  0  0 |  h = 7
+  7  7  7  0  0  0 16  3  7  1 |  i = 8
+  3  8  3  0  0  1  2  0  0 31 |  j = 9
+
+=== BayesNet K2 on Top 5 - 2 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=51 #classindex=50
+Network structure (nodes followed by parents)
+pixel 1171(5): class 
+pixel 1172(5): class pixel 1171 
+pixel 1220(5): class pixel 1171 
+pixel 1468(8): class pixel 1220 
+pixel 1472(6): class pixel 1468 
+pixel 998(5): class pixel 1220 
+pixel 1046(4): class pixel 998 
+pixel 1094(6): class pixel 1046 
+pixel 1142(6): class pixel 1094 
+pixel 1714(4): class pixel 1094 
+pixel 1036(6): class pixel 1220 
+pixel 1083(7): class pixel 1036 
+pixel 1084(7): class pixel 1036 
+pixel 1131(5): class pixel 1083 
+pixel 1132(5): class pixel 1084 
+pixel 1272(7): class pixel 1084 
+pixel 1369(4): class pixel 1272 
+pixel 1417(5): class pixel 1369 
+pixel 1649(4): class pixel 1132 
+pixel 1696(4): class pixel 1649 
+pixel 1237(5): class pixel 1142 
+pixel 1801(5): class pixel 1237 
+pixel 1848(4): class pixel 1801 
+pixel 1849(6): class pixel 1848 
+pixel 1850(6): class pixel 1849 
+pixel 1270(4): class pixel 1083 
+pixel 1271(4): class pixel 1272 
+pixel 1319(4): class pixel 1271 
+pixel 1367(4): class pixel 1319 
+pixel 1368(4): class pixel 1369 
+pixel 1186(6): class pixel 1468 
+pixel 1689(4): class pixel 1696 
+pixel 1738(4): class pixel 1689 
+pixel 1786(4): class pixel 1738 
+pixel 1787(4): class pixel 1738 
+pixel 1119(6): class pixel 1186 
+pixel 1120(7): class pixel 1119 
+pixel 1121(4): class pixel 1120 
+pixel 1168(5): class pixel 1120 
+pixel 1169(4): class pixel 1121 
+pixel 1232(6): class pixel 1084 
+pixel 1280(6): class pixel 1232 
+pixel 1328(6): class pixel 1280 
+pixel 1375(5): class pixel 1328 
+pixel 1470(6): class pixel 1375 
+pixel 1362(5): class pixel 1084 
+pixel 1363(4): class pixel 1362 
+pixel 1364(5): class pixel 1363 
+pixel 1410(4): class pixel 1362 
+pixel 1411(5): class pixel 1363 
+class(10): 
+LogScore Bayes: -66499.52782738226
+LogScore BDeu: -127768.88131135033
+LogScore MDL: -115058.24631409289
+LogScore ENTROPY: -72801.17655485425
+LogScore AIC: -83980.17655485387
+
+=== BayesNet K2 on Top 5 - 2 parents (stats) ===
+Correctly Classified Instances         339               70.625  %
+Incorrectly Classified Instances       141               29.375  %
+Kappa statistic                          0.6736
+Mean absolute error                      0.0644
+Root mean squared error                  0.2137
+Relative absolute error                 35.7592 %
+Root relative squared error             71.2257 %
+Total Number of Instances              480     
+
+=== BayesNet K2 on Top 5 - 2 parents (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.583    0.123    0.346      0.583    0.434      0.369    0.864     0.380     0
+                 0.563    0.074    0.458      0.563    0.505      0.446    0.885     0.463     1
+                 0.833    0.053    0.635      0.833    0.721      0.693    0.967     0.808     2
+                 0.792    0.005    0.950      0.792    0.864      0.854    0.987     0.940     3
+                 0.729    0.019    0.814      0.729    0.769      0.747    0.948     0.848     4
+                 0.854    0.005    0.953      0.854    0.901      0.892    0.980     0.944     5
+                 0.854    0.005    0.953      0.854    0.901      0.892    0.968     0.931     6
+                 0.313    0.019    0.652      0.313    0.423      0.413    0.484     0.303     7
+                 0.688    0.019    0.805      0.688    0.742      0.718    0.964     0.851     8
+                 0.854    0.007    0.932      0.854    0.891      0.881    0.995     0.966     9
+Weighted Avg.    0.706    0.033    0.750      0.706    0.715      0.691    0.904     0.743     
+
+=== BayesNet K2 on Top 5 - 2 parents (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 28 14  4  0  0  0  1  0  1  0 |  a = 0
+ 17 27  0  1  0  1  0  0  2  0 |  b = 1
+  1  3 40  0  0  0  0  4  0  0 |  c = 2
+  4  5  1 38  0  0  0  0  0  0 |  d = 3
+  1  1  5  0 35  0  0  3  1  2 |  e = 4
+  1  4  0  0  0 41  0  0  1  1 |  f = 5
+  5  0  0  0  2  0 41  0  0  0 |  g = 6
+ 19  0  7  0  4  0  0 15  3  0 |  h = 7
+  5  2  4  0  2  0  1  1 33  0 |  i = 8
+  0  3  2  1  0  1  0  0  0 41 |  j = 9
+
+=== BayesNet K2 on Top 5 - 3 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=51 #classindex=50
+Network structure (nodes followed by parents)
+pixel 1171(5): class 
+pixel 1172(5): class pixel 1171 
+pixel 1220(5): class pixel 1171 pixel 1172 
+pixel 1468(8): class pixel 1220 
+pixel 1472(6): class pixel 1468 
+pixel 998(5): class pixel 1220 pixel 1472 
+pixel 1046(4): class pixel 998 
+pixel 1094(6): class pixel 1046 
+pixel 1142(6): class pixel 1094 
+pixel 1714(4): class pixel 1094 
+pixel 1036(6): class pixel 1220 pixel 1472 
+pixel 1083(7): class pixel 1036 
+pixel 1084(7): class pixel 1036 
+pixel 1131(5): class pixel 1083 
+pixel 1132(5): class pixel 1084 
+pixel 1272(7): class pixel 1084 
+pixel 1369(4): class pixel 1272 
+pixel 1417(5): class pixel 1369 pixel 1220 
+pixel 1649(4): class pixel 1132 pixel 1472 
+pixel 1696(4): class pixel 1649 pixel 1714 
+pixel 1237(5): class pixel 1142 
+pixel 1801(5): class pixel 1237 pixel 1649 
+pixel 1848(4): class pixel 1801 pixel 1714 
+pixel 1849(6): class pixel 1848 pixel 1801 
+pixel 1850(6): class pixel 1849 
+pixel 1270(4): class pixel 1083 
+pixel 1271(4): class pixel 1272 pixel 1270 
+pixel 1319(4): class pixel 1271 pixel 1270 
+pixel 1367(4): class pixel 1319 
+pixel 1368(4): class pixel 1369 pixel 1367 
+pixel 1186(6): class pixel 1468 pixel 1369 
+pixel 1689(4): class pixel 1696 pixel 1369 
+pixel 1738(4): class pixel 1689 
+pixel 1786(4): class pixel 1738 
+pixel 1787(4): class pixel 1738 pixel 1689 
+pixel 1119(6): class pixel 1186 
+pixel 1120(7): class pixel 1119 pixel 1220 
+pixel 1121(4): class pixel 1120 pixel 1171 
+pixel 1168(5): class pixel 1120 pixel 1121 
+pixel 1169(4): class pixel 1121 pixel 1168 
+pixel 1232(6): class pixel 1084 
+pixel 1280(6): class pixel 1232 
+pixel 1328(6): class pixel 1280 
+pixel 1375(5): class pixel 1328 
+pixel 1470(6): class pixel 1375 pixel 1468 
+pixel 1362(5): class pixel 1084 
+pixel 1363(4): class pixel 1362 pixel 1368 
+pixel 1364(5): class pixel 1363 pixel 1369 
+pixel 1410(4): class pixel 1362 pixel 1364 
+pixel 1411(5): class pixel 1363 pixel 1410 
+class(10): 
+LogScore Bayes: -65660.06192150331
+LogScore BDeu: -253509.04667382807
+LogScore MDL: -195769.31189921848
+LogScore ENTROPY: -88193.14692219908
+LogScore AIC: -116652.14692219591
+
+=== BayesNet K2 on Top 5 - 3 parents (stats) ===
+Correctly Classified Instances         357               74.375  %
+Incorrectly Classified Instances       123               25.625  %
+Kappa statistic                          0.7153
+Mean absolute error                      0.0604
+Root mean squared error                  0.2053
+Relative absolute error                 33.5306 %
+Root relative squared error             68.4212 %
+Total Number of Instances              480     
+
+=== BayesNet K2 on Top 5 - 3 parents (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.646    0.127    0.360      0.646    0.463      0.406    0.859     0.379     0
+                 0.604    0.056    0.547      0.604    0.574      0.525    0.901     0.503     1
+                 0.792    0.019    0.826      0.792    0.809      0.788    0.977     0.866     2
+                 0.875    0.005    0.955      0.875    0.913      0.905    0.992     0.959     3
+                 0.750    0.021    0.800      0.750    0.774      0.750    0.957     0.856     4
+                 0.875    0.009    0.913      0.875    0.894      0.882    0.979     0.946     5
+                 0.875    0.002    0.977      0.875    0.923      0.917    0.982     0.952     6
+                 0.333    0.023    0.615      0.333    0.432      0.411    0.468     0.341     7
+                 0.792    0.019    0.826      0.792    0.809      0.788    0.974     0.883     8
+                 0.896    0.005    0.956      0.896    0.925      0.917    0.996     0.980     9
+Weighted Avg.    0.744    0.028    0.778      0.744    0.752      0.729    0.909     0.766     
+
+=== BayesNet K2 on Top 5 - 3 parents (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 31 13  1  0  0  0  0  2  0  1 |  a = 0
+ 16 29  0  1  1  0  1  0  0  0 |  b = 1
+  1  3 38  0  1  0  0  4  1  0 |  c = 2
+  4  0  1 42  0  0  0  0  1  0 |  d = 3
+  4  1  2  0 36  0  0  4  1  0 |  e = 4
+  2  1  0  0  0 42  0  0  2  1 |  f = 5
+  2  1  0  1  1  1 42  0  0  0 |  g = 6
+ 23  0  2  0  4  0  0 16  3  0 |  h = 7
+  2  3  2  0  2  1  0  0 38  0 |  i = 8
+  1  2  0  0  0  2  0  0  0 43 |  j = 9
+
+=== BayesNet K2 on Top 5 - 4 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=51 #classindex=50
+Network structure (nodes followed by parents)
+pixel 1171(5): class 
+pixel 1172(5): class pixel 1171 
+pixel 1220(5): class pixel 1171 pixel 1172 
+pixel 1468(8): class pixel 1220 
+pixel 1472(6): class pixel 1468 
+pixel 998(5): class pixel 1220 pixel 1472 
+pixel 1046(4): class pixel 998 
+pixel 1094(6): class pixel 1046 
+pixel 1142(6): class pixel 1094 
+pixel 1714(4): class pixel 1094 
+pixel 1036(6): class pixel 1220 pixel 1472 
+pixel 1083(7): class pixel 1036 
+pixel 1084(7): class pixel 1036 
+pixel 1131(5): class pixel 1083 
+pixel 1132(5): class pixel 1084 
+pixel 1272(7): class pixel 1084 
+pixel 1369(4): class pixel 1272 
+pixel 1417(5): class pixel 1369 pixel 1220 
+pixel 1649(4): class pixel 1132 pixel 1472 
+pixel 1696(4): class pixel 1649 pixel 1714 
+pixel 1237(5): class pixel 1142 
+pixel 1801(5): class pixel 1237 pixel 1649 
+pixel 1848(4): class pixel 1801 pixel 1714 
+pixel 1849(6): class pixel 1848 pixel 1801 
+pixel 1850(6): class pixel 1849 
+pixel 1270(4): class pixel 1083 
+pixel 1271(4): class pixel 1272 pixel 1270 
+pixel 1319(4): class pixel 1271 pixel 1270 
+pixel 1367(4): class pixel 1319 
+pixel 1368(4): class pixel 1369 pixel 1367 
+pixel 1186(6): class pixel 1468 pixel 1369 
+pixel 1689(4): class pixel 1696 pixel 1369 
+pixel 1738(4): class pixel 1689 
+pixel 1786(4): class pixel 1738 
+pixel 1787(4): class pixel 1738 pixel 1689 
+pixel 1119(6): class pixel 1186 
+pixel 1120(7): class pixel 1119 pixel 1220 
+pixel 1121(4): class pixel 1120 pixel 1171 
+pixel 1168(5): class pixel 1120 pixel 1121 
+pixel 1169(4): class pixel 1121 pixel 1168 
+pixel 1232(6): class pixel 1084 
+pixel 1280(6): class pixel 1232 
+pixel 1328(6): class pixel 1280 
+pixel 1375(5): class pixel 1328 
+pixel 1470(6): class pixel 1375 pixel 1468 
+pixel 1362(5): class pixel 1084 
+pixel 1363(4): class pixel 1362 pixel 1368 
+pixel 1364(5): class pixel 1363 pixel 1369 
+pixel 1410(4): class pixel 1362 pixel 1364 
+pixel 1411(5): class pixel 1363 pixel 1410 
+class(10): 
+LogScore Bayes: -65660.06192150331
+LogScore BDeu: -253509.04667382807
+LogScore MDL: -195769.31189921848
+LogScore ENTROPY: -88193.14692219908
+LogScore AIC: -116652.14692219591
+
+=== BayesNet K2 on Top 5 - 4 parents (stats) ===
+Correctly Classified Instances         357               74.375  %
+Incorrectly Classified Instances       123               25.625  %
+Kappa statistic                          0.7153
+Mean absolute error                      0.0604
+Root mean squared error                  0.2053
+Relative absolute error                 33.5306 %
+Root relative squared error             68.4212 %
+Total Number of Instances              480     
+
+=== BayesNet K2 on Top 5 - 4 parents (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.646    0.127    0.360      0.646    0.463      0.406    0.859     0.379     0
+                 0.604    0.056    0.547      0.604    0.574      0.525    0.901     0.503     1
+                 0.792    0.019    0.826      0.792    0.809      0.788    0.977     0.866     2
+                 0.875    0.005    0.955      0.875    0.913      0.905    0.992     0.959     3
+                 0.750    0.021    0.800      0.750    0.774      0.750    0.957     0.856     4
+                 0.875    0.009    0.913      0.875    0.894      0.882    0.979     0.946     5
+                 0.875    0.002    0.977      0.875    0.923      0.917    0.982     0.952     6
+                 0.333    0.023    0.615      0.333    0.432      0.411    0.468     0.341     7
+                 0.792    0.019    0.826      0.792    0.809      0.788    0.974     0.883     8
+                 0.896    0.005    0.956      0.896    0.925      0.917    0.996     0.980     9
+Weighted Avg.    0.744    0.028    0.778      0.744    0.752      0.729    0.909     0.766     
+
+=== BayesNet K2 on Top 5 - 4 parents (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 31 13  1  0  0  0  0  2  0  1 |  a = 0
+ 16 29  0  1  1  0  1  0  0  0 |  b = 1
+  1  3 38  0  1  0  0  4  1  0 |  c = 2
+  4  0  1 42  0  0  0  0  1  0 |  d = 3
+  4  1  2  0 36  0  0  4  1  0 |  e = 4
+  2  1  0  0  0 42  0  0  2  1 |  f = 5
+  2  1  0  1  1  1 42  0  0  0 |  g = 6
+ 23  0  2  0  4  0  0 16  3  0 |  h = 7
+  2  3  2  0  2  1  0  0 38  0 |  i = 8
+  1  2  0  0  0  2  0  0  0 43 |  j = 9
+
+=== BayesNet TAN on Top 5  (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=51 #classindex=50
+Network structure (nodes followed by parents)
+pixel 1171(5): class pixel 1220 
+pixel 1172(5): class pixel 1171 
+pixel 1220(5): class pixel 1084 
+pixel 1468(8): class pixel 1470 
+pixel 1472(6): class pixel 1470 
+pixel 998(5): class pixel 1046 
+pixel 1046(4): class 
+pixel 1094(6): class pixel 1046 
+pixel 1142(6): class pixel 1094 
+pixel 1714(4): class pixel 1094 
+pixel 1036(6): class pixel 1084 
+pixel 1083(7): class pixel 1036 
+pixel 1084(7): class pixel 1801 
+pixel 1131(5): class pixel 1083 
+pixel 1132(5): class pixel 1084 
+pixel 1272(7): class pixel 1084 
+pixel 1369(4): class pixel 1368 
+pixel 1417(5): class pixel 1369 
+pixel 1649(4): class pixel 1132 
+pixel 1696(4): class pixel 1649 
+pixel 1237(5): class pixel 1142 
+pixel 1801(5): class pixel 1237 
+pixel 1848(4): class pixel 1849 
+pixel 1849(6): class pixel 1801 
+pixel 1850(6): class pixel 1849 
+pixel 1270(4): class pixel 1271 
+pixel 1271(4): class pixel 1272 
+pixel 1319(4): class pixel 1271 
+pixel 1367(4): class pixel 1319 
+pixel 1368(4): class pixel 1272 
+pixel 1186(6): class pixel 1375 
+pixel 1689(4): class pixel 1696 
+pixel 1738(4): class pixel 1689 
+pixel 1786(4): class pixel 1738 
+pixel 1787(4): class pixel 1738 
+pixel 1119(6): class pixel 1120 
+pixel 1120(7): class pixel 1168 
+pixel 1121(4): class pixel 1169 
+pixel 1168(5): class pixel 1121 
+pixel 1169(4): class pixel 1171 
+pixel 1232(6): class pixel 1084 
+pixel 1280(6): class pixel 1232 
+pixel 1328(6): class pixel 1280 
+pixel 1375(5): class pixel 1328 
+pixel 1470(6): class pixel 1375 
+pixel 1362(5): class pixel 1084 
+pixel 1363(4): class pixel 1362 
+pixel 1364(5): class pixel 1363 
+pixel 1410(4): class pixel 1362 
+pixel 1411(5): class pixel 1363 
+class(10): 
+LogScore Bayes: -64943.217041421005
+LogScore BDeu: -124545.31910072069
+LogScore MDL: -112371.92972707358
+LogScore ENTROPY: -71097.67042828785
+LogScore AIC: -82016.67042828756
+
+=== BayesNet TAN on Top 5 (stats) ===
+Correctly Classified Instances         339               70.625  %
+Incorrectly Classified Instances       141               29.375  %
+Kappa statistic                          0.6736
+Mean absolute error                      0.0629
+Root mean squared error                  0.2073
+Relative absolute error                 34.9296 %
+Root relative squared error             69.0886 %
+Total Number of Instances              480     
+
+=== BayesNet TAN on Top 5 (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.646    0.111    0.392      0.646    0.488      0.433    0.887     0.463     0
+                 0.396    0.069    0.388      0.396    0.392      0.323    0.891     0.453     1
+                 0.833    0.028    0.769      0.833    0.800      0.778    0.976     0.871     2
+                 0.771    0.005    0.949      0.771    0.851      0.841    0.985     0.932     3
+                 0.771    0.037    0.698      0.771    0.733      0.702    0.947     0.841     4
+                 0.875    0.005    0.955      0.875    0.913      0.905    0.984     0.959     5
+                 0.854    0.005    0.953      0.854    0.901      0.892    0.966     0.937     6
+                 0.250    0.019    0.600      0.250    0.353      0.348    0.507     0.267     7
+                 0.813    0.037    0.709      0.813    0.757      0.730    0.975     0.871     8
+                 0.854    0.012    0.891      0.854    0.872      0.859    0.995     0.960     9
+Weighted Avg.    0.706    0.033    0.730      0.706    0.706      0.681    0.911     0.755     
+
+=== BayesNet TAN on Top 5  (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 31 12  2  0  1  0  1  0  1  0 |  a = 0
+ 22 19  0  1  0  1  1  0  2  2 |  b = 1
+  2  1 40  0  0  0  0  5  0  0 |  c = 2
+  3  3  2 37  1  0  0  0  2  0 |  d = 3
+  2  1  2  0 37  0  0  3  1  2 |  e = 4
+  2  2  0  0  0 42  0  0  1  1 |  f = 5
+  2  2  1  1  1  0 41  0  0  0 |  g = 6
+ 14  2  1  0 10  0  0 12  9  0 |  h = 7
+  1  4  2  0  2  0  0  0 39  0 |  i = 8
+  0  3  2  0  1  1  0  0  0 41 |  j = 9
+
+=== BayesNet HillClimber on Top 5 - 1 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=51 #classindex=50
+Network structure (nodes followed by parents)
+pixel 1171(5): class 
+pixel 1172(5): class 
+pixel 1220(5): class 
+pixel 1468(8): class 
+pixel 1472(6): class 
+pixel 998(5): class 
+pixel 1046(4): class 
+pixel 1094(6): class 
+pixel 1142(6): class 
+pixel 1714(4): class 
+pixel 1036(6): class 
+pixel 1083(7): class 
+pixel 1084(7): class 
+pixel 1131(5): class 
+pixel 1132(5): class 
+pixel 1272(7): class 
+pixel 1369(4): class 
+pixel 1417(5): class 
+pixel 1649(4): class 
+pixel 1696(4): class 
+pixel 1237(5): class 
+pixel 1801(5): class 
+pixel 1848(4): class 
+pixel 1849(6): class 
+pixel 1850(6): class 
+pixel 1270(4): class 
+pixel 1271(4): class 
+pixel 1319(4): class 
+pixel 1367(4): class 
+pixel 1368(4): class 
+pixel 1186(6): class 
+pixel 1689(4): class 
+pixel 1738(4): class 
+pixel 1786(4): class 
+pixel 1787(4): class 
+pixel 1119(6): class 
+pixel 1120(7): class 
+pixel 1121(4): class 
+pixel 1168(5): class 
+pixel 1169(4): class 
+pixel 1232(6): class 
+pixel 1280(6): class 
+pixel 1328(6): class 
+pixel 1375(5): class 
+pixel 1470(6): class 
+pixel 1362(5): class 
+pixel 1363(4): class 
+pixel 1364(5): class 
+pixel 1410(4): class 
+pixel 1411(5): class 
+class(10): 
+LogScore Bayes: -115193.15867625215
+LogScore BDeu: -122823.97345245244
+LogScore MDL: -121540.39559832151
+LogScore ENTROPY: -113795.09316190671
+LogScore AIC: -115844.09316190671
+
+=== BayesNet HillClimber - 1 parents - on Top 5 (stats) ===
+Correctly Classified Instances         257               53.5417 %
+Incorrectly Classified Instances       223               46.4583 %
+Kappa statistic                          0.4838
+Mean absolute error                      0.0941
+Root mean squared error                  0.294 
+Relative absolute error                 52.2559 %
+Root relative squared error             98.0162 %
+Total Number of Instances              480     
+
+=== BayesNet HillClimber - 1 parents - on Top 5 (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.583    0.190    0.255      0.583    0.354      0.281    0.804     0.295     0
+                 0.292    0.067    0.326      0.292    0.308      0.236    0.756     0.261     1
+                 0.875    0.072    0.575      0.875    0.694      0.671    0.948     0.802     2
+                 0.646    0.007    0.912      0.646    0.756      0.747    0.895     0.796     3
+                 0.396    0.019    0.704      0.396    0.507      0.491    0.768     0.547     4
+                 0.667    0.005    0.941      0.667    0.780      0.774    0.870     0.754     5
+                 0.729    0.074    0.522      0.729    0.609      0.567    0.877     0.717     6
+                 0.375    0.067    0.383      0.375    0.379      0.311    0.451     0.289     7
+                 0.146    0.000    1.000      0.146    0.255      0.365    0.648     0.324     8
+                 0.646    0.016    0.816      0.646    0.721      0.700    0.902     0.725     9
+Weighted Avg.    0.535    0.052    0.643      0.535    0.536      0.514    0.792     0.551     
+
+=== BayesNet HillClimber on Top - 1 parents - 5  (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 28 11  4  0  2  0  1  2  0  0 |  a = 0
+ 20 14  0  0  2  1  7  2  0  2 |  b = 1
+  2  0 42  0  0  0  0  4  0  0 |  c = 2
+  6  3  4 31  2  0  0  1  0  1 |  d = 3
+  2  0  5  3 19  0  3 14  0  2 |  e = 4
+ 10  0  0  0  0 32  3  2  0  1 |  f = 5
+ 10  0  0  0  2  0 35  1  0  0 |  g = 6
+ 22  0  8  0  0  0  0 18  0  0 |  h = 7
+  7  7  7  0  0  0 16  3  7  1 |  i = 8
+  3  8  3  0  0  1  2  0  0 31 |  j = 9
+
+=== BayesNet HillClimber on Top 5 - 2 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=51 #classindex=50
+Network structure (nodes followed by parents)
+pixel 1171(5): pixel 1172 pixel 1169 
+pixel 1172(5): pixel 1220 pixel 1369 
+pixel 1220(5): class pixel 1084 
+pixel 1468(8): class pixel 1470 
+pixel 1472(6): class pixel 1470 
+pixel 998(5): pixel 1046 pixel 1094 
+pixel 1046(4): pixel 1094 
+pixel 1094(6): pixel 1142 
+pixel 1142(6): class pixel 1084 
+pixel 1714(4): class pixel 1094 
+pixel 1036(6): class pixel 1083 
+pixel 1083(7): class pixel 1168 
+pixel 1084(7): pixel 1036 pixel 1131 
+pixel 1131(5): pixel 1083 
+pixel 1132(5): pixel 1084 pixel 1131 
+pixel 1272(7): class pixel 1084 
+pixel 1369(4): class pixel 1368 
+pixel 1417(5): pixel 1369 pixel 1272 
+pixel 1649(4): class pixel 1132 
+pixel 1696(4): class pixel 1649 
+pixel 1237(5): pixel 1142 pixel 1801 
+pixel 1801(5): class pixel 1849 
+pixel 1848(4): pixel 1849 
+pixel 1849(6): pixel 1850 
+pixel 1850(6): class pixel 1714 
+pixel 1270(4): class pixel 1271 
+pixel 1271(4): class pixel 1272 
+pixel 1319(4): pixel 1271 pixel 1368 
+pixel 1367(4): pixel 1319 pixel 1368 
+pixel 1368(4): pixel 1272 pixel 1132 
+pixel 1186(6): class pixel 1375 
+pixel 1689(4): pixel 1738 pixel 1787 
+pixel 1738(4): class pixel 1696 
+pixel 1786(4): pixel 1738 pixel 1787 
+pixel 1787(4): pixel 1738 pixel 1696 
+pixel 1119(6): class 
+pixel 1120(7): pixel 1119 
+pixel 1121(4): pixel 1169 pixel 1168 
+pixel 1168(5): pixel 1120 
+pixel 1169(4): pixel 1168 pixel 1131 
+pixel 1232(6): class pixel 1084 
+pixel 1280(6): pixel 1232 
+pixel 1328(6): pixel 1280 
+pixel 1375(5): class pixel 1328 
+pixel 1470(6): class pixel 1375 
+pixel 1362(5): pixel 1363 pixel 1801 
+pixel 1363(4): pixel 1411 pixel 1084 
+pixel 1364(5): class pixel 1363 
+pixel 1410(4): pixel 1362 pixel 1411 
+pixel 1411(5): class pixel 1272 
+class(10): 
+LogScore Bayes: -60991.77403703115
+LogScore BDeu: -99172.50909480218
+LogScore MDL: -92260.4046392585
+LogScore ENTROPY: -64798.41235006706
+LogScore AIC: -72063.41235006708
+
+=== BayesNet HillClimber - 2 parents - on Top 5 (stats) ===
+Correctly Classified Instances         343               71.4583 %
+Incorrectly Classified Instances       137               28.5417 %
+Kappa statistic                          0.6829
+Mean absolute error                      0.0651
+Root mean squared error                  0.2035
+Relative absolute error                 36.1517 %
+Root relative squared error             67.8348 %
+Total Number of Instances              480     
+
+=== BayesNet HillClimber - 2 parents - on Top 5 (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.521    0.083    0.410      0.521    0.459      0.394    0.894     0.450     0
+                 0.563    0.083    0.429      0.563    0.486      0.426    0.899     0.492     1
+                 0.729    0.051    0.614      0.729    0.667      0.629    0.958     0.776     2
+                 0.771    0.002    0.974      0.771    0.860      0.854    0.984     0.943     3
+                 0.792    0.023    0.792      0.792    0.792      0.769    0.951     0.868     4
+                 0.896    0.005    0.956      0.896    0.925      0.917    0.985     0.948     5
+                 0.854    0.007    0.932      0.854    0.891      0.881    0.971     0.930     6
+                 0.354    0.023    0.630      0.354    0.453      0.431    0.595     0.318     7
+                 0.792    0.028    0.760      0.792    0.776      0.750    0.969     0.852     8
+                 0.875    0.012    0.894      0.875    0.884      0.872    0.995     0.960     9
+Weighted Avg.    0.715    0.032    0.739      0.715    0.719      0.692    0.920     0.754     
+
+=== BayesNet HillClimber on Top - 2 parents - 5  (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 25 14  4  0  1  0  1  1  2  0 |  a = 0
+ 14 27  0  0  1  0  1  1  1  3 |  b = 1
+  2  3 35  0  1  0  0  7  0  0 |  c = 2
+  2  5  3 37  0  0  0  0  1  0 |  d = 3
+  1  2  3  0 38  0  0  1  2  1 |  e = 4
+  1  2  0  0  0 43  0  0  1  1 |  f = 5
+  2  3  0  1  0  1 41  0  0  0 |  g = 6
+  9  5  8  0  4  0  0 17  5  0 |  h = 7
+  2  2  1  0  3  1  1  0 38  0 |  i = 8
+  3  0  3  0  0  0  0  0  0 42 |  j = 9
+
+=== BayesNet HillClimber on Top 5 - 3 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=51 #classindex=50
+Network structure (nodes followed by parents)
+pixel 1171(5): pixel 1172 pixel 1220 pixel 1169 
+pixel 1172(5): pixel 1220 pixel 1369 
+pixel 1220(5): class pixel 1084 
+pixel 1468(8): class pixel 1470 
+pixel 1472(6): class pixel 1470 
+pixel 998(5): pixel 1046 pixel 1094 
+pixel 1046(4): pixel 1094 
+pixel 1094(6): pixel 1142 
+pixel 1142(6): class pixel 1084 
+pixel 1714(4): pixel 1094 pixel 1696 
+pixel 1036(6): class pixel 1083 
+pixel 1083(7): class pixel 1168 
+pixel 1084(7): pixel 1036 pixel 1131 
+pixel 1131(5): pixel 1083 
+pixel 1132(5): pixel 1084 pixel 1131 
+pixel 1272(7): class pixel 1084 
+pixel 1369(4): class pixel 1368 
+pixel 1417(5): pixel 1369 pixel 1272 
+pixel 1649(4): class pixel 1132 pixel 1375 
+pixel 1696(4): class pixel 1649 
+pixel 1237(5): pixel 1142 pixel 1801 
+pixel 1801(5): class pixel 1849 pixel 1169 
+pixel 1848(4): pixel 1849 
+pixel 1849(6): pixel 1850 
+pixel 1850(6): pixel 1714 pixel 1328 
+pixel 1270(4): pixel 1271 pixel 1220 
+pixel 1271(4): class pixel 1272 
+pixel 1319(4): pixel 1271 pixel 1368 pixel 1131 
+pixel 1367(4): pixel 1319 pixel 1368 
+pixel 1368(4): pixel 1272 pixel 1132 
+pixel 1186(6): class pixel 1375 pixel 1368 
+pixel 1689(4): pixel 1738 pixel 1787 
+pixel 1738(4): class pixel 1696 pixel 1714 
+pixel 1786(4): pixel 1738 pixel 1787 
+pixel 1787(4): pixel 1738 pixel 1696 
+pixel 1119(6): class 
+pixel 1120(7): pixel 1119 
+pixel 1121(4): pixel 1169 pixel 1168 pixel 1417 
+pixel 1168(5): pixel 1120 
+pixel 1169(4): class pixel 1168 pixel 1364 
+pixel 1232(6): class pixel 1084 
+pixel 1280(6): pixel 1232 
+pixel 1328(6): pixel 1280 
+pixel 1375(5): class pixel 1328 
+pixel 1470(6): class pixel 1375 
+pixel 1362(5): pixel 1363 pixel 1169 pixel 1411 
+pixel 1363(4): pixel 1411 pixel 1084 
+pixel 1364(5): pixel 1363 pixel 1369 pixel 1270 
+pixel 1410(4): pixel 1362 pixel 1411 
+pixel 1411(5): class pixel 1272 
+class(10): 
+LogScore Bayes: -60378.83044055489
+LogScore BDeu: -125854.37629679858
+LogScore MDL: -110099.55700522328
+LogScore ENTROPY: -67725.30599877791
+LogScore AIC: -78935.30599877783
+
+=== BayesNet HillClimber - 3 parents - on Top 5 (stats) ===
+Correctly Classified Instances         343               71.4583 %
+Incorrectly Classified Instances       137               28.5417 %
+Kappa statistic                          0.6829
+Mean absolute error                      0.0646
+Root mean squared error                  0.2006
+Relative absolute error                 35.9115 %
+Root relative squared error             66.8737 %
+Total Number of Instances              480     
+
+=== BayesNet HillClimber - 3 parents - on Top 5 (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.542    0.067    0.473      0.542    0.505      0.447    0.902     0.523     0
+                 0.542    0.083    0.419      0.542    0.473      0.410    0.898     0.494     1
+                 0.729    0.044    0.648      0.729    0.686      0.651    0.967     0.805     2
+                 0.771    0.007    0.925      0.771    0.841      0.829    0.992     0.950     3
+                 0.792    0.035    0.717      0.792    0.752      0.725    0.956     0.864     4
+                 0.875    0.007    0.933      0.875    0.903      0.893    0.983     0.939     5
+                 0.854    0.012    0.891      0.854    0.872      0.859    0.975     0.927     6
+                 0.354    0.016    0.708      0.354    0.472      0.465    0.590     0.372     7
+                 0.813    0.039    0.696      0.813    0.750      0.723    0.965     0.846     8
+                 0.875    0.007    0.933      0.875    0.903      0.893    0.996     0.970     9
+Weighted Avg.    0.715    0.032    0.734      0.715    0.716      0.689    0.922     0.769     
+
+=== BayesNet HillClimber on Top - 3 parents - 5  (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 26 14  4  0  1  0  2  0  1  0 |  a = 0
+ 13 26  2  0  2  0  2  0  2  1 |  b = 1
+  2  3 35  0  0  0  0  6  2  0 |  c = 2
+  1  6  1 37  2  0  0  0  1  0 |  d = 3
+  4  1  1  0 38  0  0  1  2  1 |  e = 4
+  1  1  0  1  0 42  0  0  2  1 |  f = 5
+  1  5  0  1  0  0 41  0  0  0 |  g = 6
+  5  5 10  0  4  0  0 17  7  0 |  h = 7
+  1  1  1  1  3  2  0  0 39  0 |  i = 8
+  1  0  0  0  3  1  1  0  0 42 |  j = 9
+
+=== BayesNet HillClimber on Top 5 - 4 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=51 #classindex=50
+Network structure (nodes followed by parents)
+pixel 1171(5): pixel 1172 pixel 1220 pixel 1169 
+pixel 1172(5): pixel 1220 pixel 1369 
+pixel 1220(5): class pixel 1084 
+pixel 1468(8): class pixel 1470 
+pixel 1472(6): class pixel 1470 
+pixel 998(5): pixel 1046 pixel 1094 
+pixel 1046(4): pixel 1094 
+pixel 1094(6): pixel 1142 
+pixel 1142(6): class pixel 1084 
+pixel 1714(4): pixel 1094 pixel 1696 
+pixel 1036(6): class pixel 1083 
+pixel 1083(7): class pixel 1168 
+pixel 1084(7): pixel 1036 pixel 1131 
+pixel 1131(5): pixel 1083 
+pixel 1132(5): pixel 1084 pixel 1131 
+pixel 1272(7): class pixel 1084 
+pixel 1369(4): class pixel 1368 
+pixel 1417(5): pixel 1369 pixel 1272 
+pixel 1649(4): class pixel 1132 pixel 1375 
+pixel 1696(4): class pixel 1649 
+pixel 1237(5): pixel 1142 pixel 1801 
+pixel 1801(5): class pixel 1849 pixel 1169 
+pixel 1848(4): pixel 1849 
+pixel 1849(6): pixel 1850 
+pixel 1850(6): pixel 1714 pixel 1328 
+pixel 1270(4): pixel 1271 pixel 1220 
+pixel 1271(4): class pixel 1272 
+pixel 1319(4): pixel 1271 pixel 1368 pixel 1131 
+pixel 1367(4): pixel 1319 pixel 1368 
+pixel 1368(4): pixel 1272 pixel 1132 
+pixel 1186(6): class pixel 1375 pixel 1368 
+pixel 1689(4): pixel 1738 pixel 1787 
+pixel 1738(4): class pixel 1714 pixel 1649 
+pixel 1786(4): pixel 1738 pixel 1787 
+pixel 1787(4): pixel 1738 pixel 1696 
+pixel 1119(6): class 
+pixel 1120(7): pixel 1119 
+pixel 1121(4): pixel 1169 pixel 1168 pixel 1417 
+pixel 1168(5): pixel 1120 
+pixel 1169(4): class pixel 1168 pixel 1364 
+pixel 1232(6): class pixel 1084 
+pixel 1280(6): pixel 1232 
+pixel 1328(6): pixel 1280 
+pixel 1375(5): class pixel 1328 
+pixel 1470(6): class pixel 1375 
+pixel 1362(5): pixel 1363 pixel 1169 pixel 1411 
+pixel 1363(4): pixel 1411 pixel 1084 
+pixel 1364(5): pixel 1363 pixel 1369 pixel 1270 
+pixel 1410(4): pixel 1362 pixel 1411 
+pixel 1411(5): class pixel 1272 
+class(10): 
+LogScore Bayes: -60374.71852132133
+LogScore BDeu: -125850.26437756498
+LogScore MDL: -110091.77880715269
+LogScore ENTROPY: -67717.52780070745
+LogScore AIC: -78927.52780070738
+
+=== BayesNet HillClimber - 4 parents - on Top 5 (stats) ===
+Correctly Classified Instances         345               71.875  %
+Incorrectly Classified Instances       135               28.125  %
+Kappa statistic                          0.6875
+Mean absolute error                      0.064 
+Root mean squared error                  0.1994
+Relative absolute error                 35.5375 %
+Root relative squared error             66.4582 %
+Total Number of Instances              480     
+
+=== BayesNet HillClimber - 4 parents - on Top 5 (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.521    0.072    0.446      0.521    0.481      0.420    0.900     0.510     0
+                 0.542    0.079    0.433      0.542    0.481      0.420    0.901     0.509     1
+                 0.729    0.035    0.700      0.729    0.714      0.682    0.969     0.831     2
+                 0.771    0.005    0.949      0.771    0.851      0.841    0.992     0.952     3
+                 0.854    0.035    0.732      0.854    0.788      0.766    0.958     0.875     4
+                 0.896    0.007    0.935      0.896    0.915      0.906    0.983     0.941     5
+                 0.833    0.012    0.889      0.833    0.860      0.846    0.975     0.929     6
+                 0.354    0.016    0.708      0.354    0.472      0.465    0.580     0.373     7
+                 0.833    0.049    0.656      0.833    0.734      0.707    0.962     0.841     8
+                 0.854    0.005    0.953      0.854    0.901      0.892    0.997     0.976     9
+Weighted Avg.    0.719    0.031    0.740      0.719    0.720      0.694    0.922     0.774     
+
+=== BayesNet HillClimber on Top - 4 parents - 5  (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 25 15  4  0  1  0  2  0  1  0 |  a = 0
+ 13 26  2  0  2  0  2  0  2  1 |  b = 1
+  2  3 35  0  0  0  0  6  2  0 |  c = 2
+  1  6  1 37  2  0  0  0  1  0 |  d = 3
+  3  0  1  0 41  0  0  1  2  0 |  e = 4
+  1  1  0  0  0 43  0  0  2  1 |  f = 5
+  1  5  0  1  0  0 40  0  1  0 |  g = 6
+  7  3  6  0  5  0  0 17 10  0 |  h = 7
+  1  1  1  1  2  2  0  0 40  0 |  i = 8
+  2  0  0  0  3  1  1  0  0 41 |  j = 9
+
+--------------------------------- Results from dataset of Top 10 attributes ------------------------------------------
+class attribute: @attribute class {0,1,2,3,4,5,6,7,8,9}
+=== BayesNet K2 on Top 10 - 1 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=96 #classindex=95
+Network structure (nodes followed by parents)
+pixel 1123(4): class 
+pixel 1171(5): class 
+pixel 1172(5): class 
+pixel 1220(5): class 
+pixel 1221(4): class 
+pixel 1468(8): class 
+pixel 1469(6): class 
+pixel 1472(6): class 
+pixel 1518(8): class 
+pixel 1519(6): class 
+pixel 997(5): class 
+pixel 998(5): class 
+pixel 1046(4): class 
+pixel 1094(6): class 
+pixel 1142(6): class 
+pixel 1143(5): class 
+pixel 1190(6): class 
+pixel 1714(4): class 
+pixel 1761(5): class 
+pixel 1035(5): class 
+pixel 1036(6): class 
+pixel 1081(5): class 
+pixel 1082(5): class 
+pixel 1083(7): class 
+pixel 1084(7): class 
+pixel 1130(6): class 
+pixel 1131(5): class 
+pixel 1132(5): class 
+pixel 1179(5): class 
+pixel 1224(6): class 
+pixel 1272(7): class 
+pixel 1320(7): class 
+pixel 1321(4): class 
+pixel 1369(4): class 
+pixel 1417(5): class 
+pixel 1648(5): class 
+pixel 1649(4): class 
+pixel 1696(4): class 
+pixel 1697(5): class 
+pixel 1043(4): class 
+pixel 1237(5): class 
+pixel 1285(5): class 
+pixel 1800(5): class 
+pixel 1801(5): class 
+pixel 1802(6): class 
+pixel 1848(4): class 
+pixel 1849(6): class 
+pixel 1850(6): class 
+pixel 1897(5): class 
+pixel 1222(4): class 
+pixel 1270(4): class 
+pixel 1271(4): class 
+pixel 1318(5): class 
+pixel 1319(4): class 
+pixel 1367(4): class 
+pixel 1368(4): class 
+pixel 1415(4): class 
+pixel 1416(7): class 
+pixel 1138(6): class 
+pixel 1185(6): class 
+pixel 1186(6): class 
+pixel 1689(4): class 
+pixel 1737(5): class 
+pixel 1738(4): class 
+pixel 1786(4): class 
+pixel 1787(4): class 
+pixel 1885(4): class 
+pixel 1934(4): class 
+pixel 1071(7): class 
+pixel 1072(6): class 
+pixel 1119(6): class 
+pixel 1120(7): class 
+pixel 1121(4): class 
+pixel 1167(4): class 
+pixel 1168(5): class 
+pixel 1169(4): class 
+pixel 1216(5): class 
+pixel 1217(4): class 
+pixel 1232(6): class 
+pixel 1280(6): class 
+pixel 1328(6): class 
+pixel 1375(5): class 
+pixel 1376(7): class 
+pixel 1423(5): class 
+pixel 1470(6): class 
+pixel 1471(7): class 
+pixel 1317(5): class 
+pixel 1362(5): class 
+pixel 1363(4): class 
+pixel 1364(5): class 
+pixel 1365(4): class 
+pixel 1410(4): class 
+pixel 1411(5): class 
+pixel 1412(5): class 
+pixel 1413(5): class 
+class(10): 
+LogScore Bayes: -216473.77528670442
+LogScore BDeu: -231297.28695294313
+LogScore MDL: -228823.86573768468
+LogScore ENTROPY: -213858.68645717387
+LogScore AIC: -217817.6864571739
+
+=== BayesNet K2 on Top 10 - 1 parents (stats) ===
+Correctly Classified Instances         250               52.0833 %
+Incorrectly Classified Instances       230               47.9167 %
+Kappa statistic                          0.4676
+Mean absolute error                      0.096 
+Root mean squared error                  0.304 
+Relative absolute error                 53.3334 %
+Root relative squared error            101.3307 %
+Total Number of Instances              480     
+
+=== BayesNet K2 on Top 10 - 1 parents (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.521    0.185    0.238      0.521    0.327      0.244    0.808     0.311     0
+                 0.292    0.072    0.311      0.292    0.301      0.226    0.750     0.299     1
+                 0.875    0.076    0.560      0.875    0.683      0.660    0.947     0.837     2
+                 0.646    0.005    0.939      0.646    0.765      0.760    0.896     0.794     3
+                 0.396    0.019    0.704      0.396    0.507      0.491    0.776     0.561     4
+                 0.667    0.005    0.941      0.667    0.780      0.774    0.875     0.755     5
+                 0.729    0.088    0.479      0.729    0.579      0.536    0.885     0.737     6
+                 0.375    0.067    0.383      0.375    0.379      0.311    0.451     0.328     7
+                 0.146    0.000    1.000      0.146    0.255      0.365    0.695     0.395     8
+                 0.563    0.016    0.794      0.563    0.659      0.639    0.907     0.695     9
+Weighted Avg.    0.521    0.053    0.635      0.521    0.523      0.501    0.799     0.571     
+
+=== BayesNet K2 on Top 10 - 1 parents (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 25 12  6  0  2  0  2  1  0  0 |  a = 0
+ 20 14  0  0  1  1  8  2  0  2 |  b = 1
+  0  1 42  0  0  0  0  5  0  0 |  c = 2
+  6  2  5 31  2  0  0  1  0  1 |  d = 3
+  2  1  5  2 19  0  2 15  0  2 |  e = 4
+ 10  0  0  0  0 32  4  1  0  1 |  f = 5
+  9  1  0  0  2  0 35  1  0  0 |  g = 6
+ 23  0  7  0  0  0  0 18  0  0 |  h = 7
+  7  7  7  0  1  0 15  3  7  1 |  i = 8
+  3  7  3  0  0  1  7  0  0 27 |  j = 9
+
+=== BayesNet K2 on Top 10 - 2 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=96 #classindex=95
+Network structure (nodes followed by parents)
+pixel 1123(4): class 
+pixel 1171(5): class pixel 1123 
+pixel 1172(5): class pixel 1171 
+pixel 1220(5): class pixel 1171 
+pixel 1221(4): class pixel 1220 
+pixel 1468(8): class pixel 1220 
+pixel 1469(6): class pixel 1468 
+pixel 1472(6): class pixel 1469 
+pixel 1518(8): class pixel 1472 
+pixel 1519(6): class pixel 1518 
+pixel 997(5): class pixel 1519 
+pixel 998(5): class pixel 997 
+pixel 1046(4): class pixel 998 
+pixel 1094(6): class pixel 1046 
+pixel 1142(6): class pixel 1094 
+pixel 1143(5): class pixel 998 
+pixel 1190(6): class pixel 1142 
+pixel 1714(4): class pixel 1190 
+pixel 1761(5): class pixel 1714 
+pixel 1035(5): class pixel 1221 
+pixel 1036(6): class pixel 1035 
+pixel 1081(5): class pixel 1035 
+pixel 1082(5): class pixel 1035 
+pixel 1083(7): class pixel 1035 
+pixel 1084(7): class pixel 1036 
+pixel 1130(6): class pixel 1083 
+pixel 1131(5): class pixel 1083 
+pixel 1132(5): class pixel 1084 
+pixel 1179(5): class pixel 1131 
+pixel 1224(6): class pixel 1084 
+pixel 1272(7): class pixel 1224 
+pixel 1320(7): class pixel 1272 
+pixel 1321(4): class pixel 1320 
+pixel 1369(4): class pixel 1321 
+pixel 1417(5): class pixel 1369 
+pixel 1648(5): class pixel 1084 
+pixel 1649(4): class pixel 1648 
+pixel 1696(4): class pixel 1648 
+pixel 1697(5): class pixel 1648 
+pixel 1043(4): class pixel 1190 
+pixel 1237(5): class pixel 1190 
+pixel 1285(5): class pixel 1237 
+pixel 1800(5): class pixel 1237 
+pixel 1801(5): class pixel 1800 
+pixel 1802(6): class pixel 1801 
+pixel 1848(4): class pixel 1800 
+pixel 1849(6): class pixel 1848 
+pixel 1850(6): class pixel 1849 
+pixel 1897(5): class pixel 1849 
+pixel 1222(4): class pixel 1221 
+pixel 1270(4): class pixel 1222 
+pixel 1271(4): class pixel 1222 
+pixel 1318(5): class pixel 1270 
+pixel 1319(4): class pixel 1271 
+pixel 1367(4): class pixel 1319 
+pixel 1368(4): class pixel 1320 
+pixel 1415(4): class pixel 1367 
+pixel 1416(7): class pixel 1368 
+pixel 1138(6): class pixel 1084 
+pixel 1185(6): class pixel 1138 
+pixel 1186(6): class pixel 1138 
+pixel 1689(4): class pixel 1697 
+pixel 1737(5): class pixel 1689 
+pixel 1738(4): class pixel 1689 
+pixel 1786(4): class pixel 1738 
+pixel 1787(4): class pixel 1738 
+pixel 1885(4): class pixel 1787 
+pixel 1934(4): class pixel 1885 
+pixel 1071(7): class pixel 1138 
+pixel 1072(6): class pixel 1071 
+pixel 1119(6): class pixel 1071 
+pixel 1120(7): class pixel 1072 
+pixel 1121(4): class pixel 1120 
+pixel 1167(4): class pixel 1119 
+pixel 1168(5): class pixel 1120 
+pixel 1169(4): class pixel 1121 
+pixel 1216(5): class pixel 1168 
+pixel 1217(4): class pixel 1169 
+pixel 1232(6): class pixel 1185 
+pixel 1280(6): class pixel 1232 
+pixel 1328(6): class pixel 1280 
+pixel 1375(5): class pixel 1328 
+pixel 1376(7): class pixel 1328 
+pixel 1423(5): class pixel 1375 
+pixel 1470(6): class pixel 1469 
+pixel 1471(7): class pixel 1518 
+pixel 1317(5): class pixel 1318 
+pixel 1362(5): class pixel 1084 
+pixel 1363(4): class pixel 1362 
+pixel 1364(5): class pixel 1363 
+pixel 1365(4): class pixel 1317 
+pixel 1410(4): class pixel 1362 
+pixel 1411(5): class pixel 1363 
+pixel 1412(5): class pixel 1364 
+pixel 1413(5): class pixel 1365 
+class(10): 
+LogScore Bayes: -115276.7046854363
+LogScore BDeu: -233303.2683115661
+LogScore MDL: -209378.33785497549
+LogScore ENTROPY: -128111.2528962236
+LogScore AIC: -149610.25289622333
+
+=== BayesNet K2 on Top 10 - 2 parents (stats) ===
+Correctly Classified Instances         347               72.2917 %
+Incorrectly Classified Instances       133               27.7083 %
+Kappa statistic                          0.6921
+Mean absolute error                      0.0581
+Root mean squared error                  0.2155
+Relative absolute error                 32.254  %
+Root relative squared error             71.842  %
+Total Number of Instances              480     
+
+=== BayesNet K2 on Top 10 - 2 parents (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.646    0.134    0.348      0.646    0.453      0.395    0.886     0.453     0
+                 0.479    0.056    0.489      0.479    0.484      0.428    0.904     0.536     1
+                 0.833    0.039    0.702      0.833    0.762      0.736    0.973     0.824     2
+                 0.792    0.007    0.927      0.792    0.854      0.842    0.986     0.935     3
+                 0.792    0.037    0.704      0.792    0.745      0.716    0.922     0.828     4
+                 0.875    0.005    0.955      0.875    0.913      0.905    0.984     0.953     5
+                 0.854    0.000    1.000      0.854    0.921      0.917    0.964     0.926     6
+                 0.271    0.014    0.684      0.271    0.388      0.395    0.448     0.290     7
+                 0.792    0.009    0.905      0.792    0.844      0.831    0.965     0.872     8
+                 0.896    0.007    0.935      0.896    0.915      0.906    0.994     0.961     9
+Weighted Avg.    0.723    0.031    0.765      0.723    0.728      0.707    0.903     0.758     
+
+=== BayesNet K2 on Top 10 - 2 parents (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 31 12  3  0  1  0  0  1  0  0 |  a = 0
+ 22 23  0  1  1  0  0  0  1  0 |  b = 1
+  0  3 40  0  1  0  0  4  0  0 |  c = 2
+  2  4  3 38  1  0  0  0  0  0 |  d = 3
+  0  1  5  1 38  0  0  1  0  2 |  e = 4
+  2  1  0  0  0 42  0  0  2  1 |  f = 5
+  3  1  0  1  1  0 41  0  1  0 |  g = 6
+ 27  0  2  0  6  0  0 13  0  0 |  h = 7
+  2  1  1  0  5  1  0  0 38  0 |  i = 8
+  0  1  3  0  0  1  0  0  0 43 |  j = 9
+
+=== BayesNet K2 on Top 10 - 3 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=96 #classindex=95
+Network structure (nodes followed by parents)
+pixel 1123(4): class 
+pixel 1171(5): class pixel 1123 
+pixel 1172(5): class pixel 1171 
+pixel 1220(5): class pixel 1171 pixel 1172 
+pixel 1221(4): class pixel 1220 
+pixel 1468(8): class pixel 1220 pixel 1221 
+pixel 1469(6): class pixel 1468 
+pixel 1472(6): class pixel 1469 
+pixel 1518(8): class pixel 1472 pixel 1469 
+pixel 1519(6): class pixel 1518 pixel 1472 
+pixel 997(5): class pixel 1519 pixel 1220 
+pixel 998(5): class pixel 997 
+pixel 1046(4): class pixel 998 pixel 997 
+pixel 1094(6): class pixel 1046 
+pixel 1142(6): class pixel 1094 
+pixel 1143(5): class pixel 998 pixel 1142 
+pixel 1190(6): class pixel 1142 
+pixel 1714(4): class pixel 1190 pixel 1519 
+pixel 1761(5): class pixel 1714 
+pixel 1035(5): class pixel 1221 pixel 1519 
+pixel 1036(6): class pixel 1035 pixel 1123 
+pixel 1081(5): class pixel 1035 pixel 1220 
+pixel 1082(5): class pixel 1035 pixel 1081 
+pixel 1083(7): class pixel 1035 pixel 1036 
+pixel 1084(7): class pixel 1036 
+pixel 1130(6): class pixel 1083 pixel 1082 
+pixel 1131(5): class pixel 1083 
+pixel 1132(5): class pixel 1084 
+pixel 1179(5): class pixel 1131 
+pixel 1224(6): class pixel 1084 pixel 1081 
+pixel 1272(7): class pixel 1224 
+pixel 1320(7): class pixel 1272 
+pixel 1321(4): class pixel 1320 pixel 1081 
+pixel 1369(4): class pixel 1321 
+pixel 1417(5): class pixel 1369 pixel 1220 
+pixel 1648(5): class pixel 1084 pixel 1714 
+pixel 1649(4): class pixel 1648 
+pixel 1696(4): class pixel 1648 
+pixel 1697(5): class pixel 1648 
+pixel 1043(4): class pixel 1190 pixel 1417 
+pixel 1237(5): class pixel 1190 
+pixel 1285(5): class pixel 1237 
+pixel 1800(5): class pixel 1237 pixel 1697 
+pixel 1801(5): class pixel 1800 
+pixel 1802(6): class pixel 1801 
+pixel 1848(4): class pixel 1800 pixel 1714 
+pixel 1849(6): class pixel 1848 pixel 1802 
+pixel 1850(6): class pixel 1849 
+pixel 1897(5): class pixel 1849 pixel 1761 
+pixel 1222(4): class pixel 1221 pixel 1035 
+pixel 1270(4): class pixel 1222 pixel 1221 
+pixel 1271(4): class pixel 1222 pixel 1272 
+pixel 1318(5): class pixel 1270 
+pixel 1319(4): class pixel 1271 pixel 1318 
+pixel 1367(4): class pixel 1319 
+pixel 1368(4): class pixel 1320 pixel 1369 
+pixel 1415(4): class pixel 1367 pixel 1368 
+pixel 1416(7): class pixel 1368 pixel 1417 
+pixel 1138(6): class pixel 1084 pixel 1043 
+pixel 1185(6): class pixel 1138 
+pixel 1186(6): class pixel 1138 
+pixel 1689(4): class pixel 1697 
+pixel 1737(5): class pixel 1689 
+pixel 1738(4): class pixel 1689 
+pixel 1786(4): class pixel 1738 pixel 1737 
+pixel 1787(4): class pixel 1738 pixel 1689 
+pixel 1885(4): class pixel 1787 pixel 1738 
+pixel 1934(4): class pixel 1885 
+pixel 1071(7): class pixel 1138 pixel 1220 
+pixel 1072(6): class pixel 1071 
+pixel 1119(6): class pixel 1071 
+pixel 1120(7): class pixel 1072 
+pixel 1121(4): class pixel 1120 pixel 1171 
+pixel 1167(4): class pixel 1119 
+pixel 1168(5): class pixel 1120 pixel 1121 
+pixel 1169(4): class pixel 1121 pixel 1168 
+pixel 1216(5): class pixel 1168 pixel 1167 
+pixel 1217(4): class pixel 1169 pixel 1216 
+pixel 1232(6): class pixel 1185 
+pixel 1280(6): class pixel 1232 
+pixel 1328(6): class pixel 1280 
+pixel 1375(5): class pixel 1328 
+pixel 1376(7): class pixel 1328 
+pixel 1423(5): class pixel 1375 
+pixel 1470(6): class pixel 1469 pixel 1518 
+pixel 1471(7): class pixel 1518 pixel 1470 
+pixel 1317(5): class pixel 1318 pixel 1221 
+pixel 1362(5): class pixel 1084 
+pixel 1363(4): class pixel 1362 pixel 1317 
+pixel 1364(5): class pixel 1363 pixel 1317 
+pixel 1365(4): class pixel 1317 
+pixel 1410(4): class pixel 1362 pixel 1364 
+pixel 1411(5): class pixel 1363 pixel 1410 
+pixel 1412(5): class pixel 1364 pixel 1411 
+pixel 1413(5): class pixel 1365 pixel 1412 
+class(10): 
+LogScore Bayes: -112817.11677272445
+LogScore BDeu: -552831.1842464013
+LogScore MDL: -411045.3263442215
+LogScore ENTROPY: -167652.3158130954
+LogScore AIC: -232041.3158130896
+
+=== BayesNet K2 on Top 10 - 3 parents (stats) ===
+Correctly Classified Instances         360               75      %
+Incorrectly Classified Instances       120               25      %
+Kappa statistic                          0.7222
+Mean absolute error                      0.0521
+Root mean squared error                  0.2045
+Relative absolute error                 28.9681 %
+Root relative squared error             68.1547 %
+Total Number of Instances              480     
+
+=== BayesNet K2 on Top 10 - 3 parents (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.646    0.134    0.348      0.646    0.453      0.395    0.886     0.419     0
+                 0.542    0.063    0.491      0.542    0.515      0.459    0.913     0.568     1
+                 0.875    0.016    0.857      0.875    0.866      0.851    0.986     0.933     2
+                 0.896    0.005    0.956      0.896    0.925      0.917    0.994     0.964     3
+                 0.813    0.028    0.765      0.813    0.788      0.764    0.949     0.871     4
+                 0.875    0.005    0.955      0.875    0.913      0.905    0.982     0.958     5
+                 0.854    0.000    1.000      0.854    0.921      0.917    0.977     0.949     6
+                 0.313    0.012    0.750      0.313    0.441      0.452    0.443     0.328     7
+                 0.771    0.007    0.925      0.771    0.841      0.829    0.975     0.899     8
+                 0.917    0.009    0.917      0.917    0.917      0.907    0.996     0.974     9
+Weighted Avg.    0.750    0.028    0.796      0.750    0.758      0.740    0.910     0.786     
+
+=== BayesNet K2 on Top 10 - 3 parents (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 31 15  1  0  0  0  0  1  0  0 |  a = 0
+ 19 26  0  1  1  0  0  0  1  0 |  b = 1
+  0  1 42  0  2  0  0  3  0  0 |  c = 2
+  3  0  1 43  1  0  0  0  0  0 |  d = 3
+  1  1  3  1 39  0  0  1  0  2 |  e = 4
+  2  1  0  0  1 42  0  0  2  0 |  f = 5
+  4  2  0  0  1  0 41  0  0  0 |  g = 6
+ 28  3  0  0  2  0  0 15  0  0 |  h = 7
+  1  3  0  0  4  1  0  0 37  2 |  i = 8
+  0  1  2  0  0  1  0  0  0 44 |  j = 9
+
+=== BayesNet K2 on Top 10 - 4 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=96 #classindex=95
+Network structure (nodes followed by parents)
+pixel 1123(4): class 
+pixel 1171(5): class pixel 1123 
+pixel 1172(5): class pixel 1171 
+pixel 1220(5): class pixel 1171 pixel 1172 
+pixel 1221(4): class pixel 1220 
+pixel 1468(8): class pixel 1220 pixel 1221 
+pixel 1469(6): class pixel 1468 
+pixel 1472(6): class pixel 1469 
+pixel 1518(8): class pixel 1472 pixel 1469 
+pixel 1519(6): class pixel 1518 pixel 1472 
+pixel 997(5): class pixel 1519 pixel 1220 
+pixel 998(5): class pixel 997 
+pixel 1046(4): class pixel 998 pixel 997 
+pixel 1094(6): class pixel 1046 
+pixel 1142(6): class pixel 1094 
+pixel 1143(5): class pixel 998 pixel 1142 
+pixel 1190(6): class pixel 1142 
+pixel 1714(4): class pixel 1190 pixel 1519 
+pixel 1761(5): class pixel 1714 
+pixel 1035(5): class pixel 1221 pixel 1519 
+pixel 1036(6): class pixel 1035 pixel 1123 
+pixel 1081(5): class pixel 1035 pixel 1220 
+pixel 1082(5): class pixel 1035 pixel 1081 
+pixel 1083(7): class pixel 1035 pixel 1036 
+pixel 1084(7): class pixel 1036 
+pixel 1130(6): class pixel 1083 pixel 1082 
+pixel 1131(5): class pixel 1083 
+pixel 1132(5): class pixel 1084 
+pixel 1179(5): class pixel 1131 
+pixel 1224(6): class pixel 1084 pixel 1081 
+pixel 1272(7): class pixel 1224 
+pixel 1320(7): class pixel 1272 
+pixel 1321(4): class pixel 1320 pixel 1081 
+pixel 1369(4): class pixel 1321 
+pixel 1417(5): class pixel 1369 pixel 1220 
+pixel 1648(5): class pixel 1084 pixel 1714 
+pixel 1649(4): class pixel 1648 
+pixel 1696(4): class pixel 1648 
+pixel 1697(5): class pixel 1648 
+pixel 1043(4): class pixel 1190 pixel 1417 
+pixel 1237(5): class pixel 1190 
+pixel 1285(5): class pixel 1237 
+pixel 1800(5): class pixel 1237 pixel 1697 
+pixel 1801(5): class pixel 1800 
+pixel 1802(6): class pixel 1801 
+pixel 1848(4): class pixel 1800 pixel 1714 
+pixel 1849(6): class pixel 1848 pixel 1802 
+pixel 1850(6): class pixel 1849 
+pixel 1897(5): class pixel 1849 pixel 1761 
+pixel 1222(4): class pixel 1221 pixel 1035 
+pixel 1270(4): class pixel 1222 pixel 1221 
+pixel 1271(4): class pixel 1222 pixel 1272 
+pixel 1318(5): class pixel 1270 
+pixel 1319(4): class pixel 1271 pixel 1318 
+pixel 1367(4): class pixel 1319 
+pixel 1368(4): class pixel 1320 pixel 1369 
+pixel 1415(4): class pixel 1367 pixel 1368 
+pixel 1416(7): class pixel 1368 pixel 1417 
+pixel 1138(6): class pixel 1084 pixel 1043 
+pixel 1185(6): class pixel 1138 
+pixel 1186(6): class pixel 1138 
+pixel 1689(4): class pixel 1697 
+pixel 1737(5): class pixel 1689 
+pixel 1738(4): class pixel 1689 
+pixel 1786(4): class pixel 1738 pixel 1737 
+pixel 1787(4): class pixel 1738 pixel 1689 
+pixel 1885(4): class pixel 1787 pixel 1738 
+pixel 1934(4): class pixel 1885 
+pixel 1071(7): class pixel 1138 pixel 1220 
+pixel 1072(6): class pixel 1071 
+pixel 1119(6): class pixel 1071 
+pixel 1120(7): class pixel 1072 
+pixel 1121(4): class pixel 1120 pixel 1171 
+pixel 1167(4): class pixel 1119 
+pixel 1168(5): class pixel 1120 pixel 1121 
+pixel 1169(4): class pixel 1121 pixel 1168 
+pixel 1216(5): class pixel 1168 pixel 1167 
+pixel 1217(4): class pixel 1169 pixel 1216 
+pixel 1232(6): class pixel 1185 
+pixel 1280(6): class pixel 1232 
+pixel 1328(6): class pixel 1280 
+pixel 1375(5): class pixel 1328 
+pixel 1376(7): class pixel 1328 
+pixel 1423(5): class pixel 1375 
+pixel 1470(6): class pixel 1469 pixel 1518 
+pixel 1471(7): class pixel 1518 pixel 1470 
+pixel 1317(5): class pixel 1318 pixel 1221 
+pixel 1362(5): class pixel 1084 
+pixel 1363(4): class pixel 1362 pixel 1317 
+pixel 1364(5): class pixel 1363 pixel 1317 
+pixel 1365(4): class pixel 1317 
+pixel 1410(4): class pixel 1362 pixel 1364 
+pixel 1411(5): class pixel 1363 pixel 1410 
+pixel 1412(5): class pixel 1364 pixel 1411 
+pixel 1413(5): class pixel 1365 pixel 1412 
+class(10): 
+LogScore Bayes: -112817.11677272445
+LogScore BDeu: -552831.1842464013
+LogScore MDL: -411045.3263442215
+LogScore ENTROPY: -167652.3158130954
+LogScore AIC: -232041.3158130896
+
+=== BayesNet K2 on Top 10 - 4 parents (stats) ===
+Correctly Classified Instances         360               75      %
+Incorrectly Classified Instances       120               25      %
+Kappa statistic                          0.7222
+Mean absolute error                      0.0521
+Root mean squared error                  0.2045
+Relative absolute error                 28.9681 %
+Root relative squared error             68.1547 %
+Total Number of Instances              480     
+
+=== BayesNet K2 on Top 10 - 4 parents (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.646    0.134    0.348      0.646    0.453      0.395    0.886     0.419     0
+                 0.542    0.063    0.491      0.542    0.515      0.459    0.913     0.568     1
+                 0.875    0.016    0.857      0.875    0.866      0.851    0.986     0.933     2
+                 0.896    0.005    0.956      0.896    0.925      0.917    0.994     0.964     3
+                 0.813    0.028    0.765      0.813    0.788      0.764    0.949     0.871     4
+                 0.875    0.005    0.955      0.875    0.913      0.905    0.982     0.958     5
+                 0.854    0.000    1.000      0.854    0.921      0.917    0.977     0.949     6
+                 0.313    0.012    0.750      0.313    0.441      0.452    0.443     0.328     7
+                 0.771    0.007    0.925      0.771    0.841      0.829    0.975     0.899     8
+                 0.917    0.009    0.917      0.917    0.917      0.907    0.996     0.974     9
+Weighted Avg.    0.750    0.028    0.796      0.750    0.758      0.740    0.910     0.786     
+
+=== BayesNet K2 on Top 10 - 4 parents (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 31 15  1  0  0  0  0  1  0  0 |  a = 0
+ 19 26  0  1  1  0  0  0  1  0 |  b = 1
+  0  1 42  0  2  0  0  3  0  0 |  c = 2
+  3  0  1 43  1  0  0  0  0  0 |  d = 3
+  1  1  3  1 39  0  0  1  0  2 |  e = 4
+  2  1  0  0  1 42  0  0  2  0 |  f = 5
+  4  2  0  0  1  0 41  0  0  0 |  g = 6
+ 28  3  0  0  2  0  0 15  0  0 |  h = 7
+  1  3  0  0  4  1  0  0 37  2 |  i = 8
+  0  1  2  0  0  1  0  0  0 44 |  j = 9
+
+=== BayesNet TAN on Top 10  (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=96 #classindex=95
+Network structure (nodes followed by parents)
+pixel 1123(4): class pixel 1171 
+pixel 1171(5): class pixel 1220 
+pixel 1172(5): class pixel 1171 
+pixel 1220(5): class pixel 1221 
+pixel 1221(4): class pixel 1222 
+pixel 1468(8): class pixel 1469 
+pixel 1469(6): class pixel 1470 
+pixel 1472(6): class pixel 1519 
+pixel 1518(8): class pixel 1471 
+pixel 1519(6): class pixel 1518 
+pixel 997(5): class pixel 1094 
+pixel 998(5): class pixel 1046 
+pixel 1046(4): class pixel 1094 
+pixel 1094(6): class pixel 1142 
+pixel 1142(6): class pixel 1190 
+pixel 1143(5): class pixel 998 
+pixel 1190(6): class pixel 1237 
+pixel 1714(4): class pixel 1190 
+pixel 1761(5): class pixel 1714 
+pixel 1035(5): class pixel 1083 
+pixel 1036(6): class pixel 1084 
+pixel 1081(5): class pixel 1082 
+pixel 1082(5): class pixel 1130 
+pixel 1083(7): class pixel 1036 
+pixel 1084(7): class pixel 1519 
+pixel 1130(6): class pixel 1083 
+pixel 1131(5): class pixel 1083 
+pixel 1132(5): class pixel 1084 
+pixel 1179(5): class pixel 1131 
+pixel 1224(6): class pixel 1272 
+pixel 1272(7): class pixel 1320 
+pixel 1320(7): class pixel 1084 
+pixel 1321(4): class pixel 1369 
+pixel 1369(4): class pixel 1368 
+pixel 1417(5): class pixel 1416 
+pixel 1648(5): class 
+pixel 1649(4): class pixel 1648 
+pixel 1696(4): class pixel 1648 
+pixel 1697(5): class pixel 1648 
+pixel 1043(4): class pixel 1237 
+pixel 1237(5): class pixel 1802 
+pixel 1285(5): class pixel 1237 
+pixel 1800(5): class pixel 1801 
+pixel 1801(5): class pixel 1697 
+pixel 1802(6): class pixel 1801 
+pixel 1848(4): class pixel 1849 
+pixel 1849(6): class pixel 1801 
+pixel 1850(6): class pixel 1849 
+pixel 1897(5): class pixel 1849 
+pixel 1222(4): class pixel 1271 
+pixel 1270(4): class pixel 1222 
+pixel 1271(4): class pixel 1272 
+pixel 1318(5): class pixel 1270 
+pixel 1319(4): class pixel 1271 
+pixel 1367(4): class pixel 1319 
+pixel 1368(4): class pixel 1320 
+pixel 1415(4): class pixel 1367 
+pixel 1416(7): class pixel 1368 
+pixel 1138(6): class pixel 1043 
+pixel 1185(6): class pixel 1138 
+pixel 1186(6): class pixel 1138 
+pixel 1689(4): class pixel 1738 
+pixel 1737(5): class pixel 1689 
+pixel 1738(4): class pixel 1787 
+pixel 1786(4): class pixel 1738 
+pixel 1787(4): class pixel 1697 
+pixel 1885(4): class pixel 1787 
+pixel 1934(4): class pixel 1885 
+pixel 1071(7): class pixel 1072 
+pixel 1072(6): class pixel 1120 
+pixel 1119(6): class pixel 1071 
+pixel 1120(7): class pixel 1168 
+pixel 1121(4): class pixel 1169 
+pixel 1167(4): class pixel 1119 
+pixel 1168(5): class pixel 1121 
+pixel 1169(4): class pixel 1171 
+pixel 1216(5): class pixel 1168 
+pixel 1217(4): class pixel 1169 
+pixel 1232(6): class pixel 1185 
+pixel 1280(6): class pixel 1232 
+pixel 1328(6): class pixel 1280 
+pixel 1375(5): class pixel 1423 
+pixel 1376(7): class pixel 1328 
+pixel 1423(5): class pixel 1471 
+pixel 1470(6): class pixel 1471 
+pixel 1471(7): class pixel 1376 
+pixel 1317(5): class pixel 1318 
+pixel 1362(5): class pixel 1363 
+pixel 1363(4): class pixel 1411 
+pixel 1364(5): class pixel 1412 
+pixel 1365(4): class pixel 1317 
+pixel 1410(4): class pixel 1362 
+pixel 1411(5): class pixel 1412 
+pixel 1412(5): class pixel 1413 
+pixel 1413(5): class pixel 1365 
+class(10): 
+LogScore Bayes: -112256.53752533134
+LogScore BDeu: -230859.69868474026
+LogScore MDL: -206969.46365693767
+LogScore ENTROPY: -125399.9754795855
+LogScore AIC: -146978.97547958483
+
+=== BayesNet TAN on Top 10 (stats) ===
+Correctly Classified Instances         333               69.375  %
+Incorrectly Classified Instances       147               30.625  %
+Kappa statistic                          0.6597
+Mean absolute error                      0.0629
+Root mean squared error                  0.222 
+Relative absolute error                 34.9672 %
+Root relative squared error             74.0054 %
+Total Number of Instances              480     
+
+=== BayesNet TAN on Top 10 (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.688    0.109    0.413      0.688    0.516      0.466    0.900     0.534     0
+                 0.438    0.086    0.362      0.438    0.396      0.324    0.876     0.465     1
+                 0.750    0.028    0.750      0.750    0.750      0.722    0.977     0.866     2
+                 0.771    0.007    0.925      0.771    0.841      0.829    0.983     0.916     3
+                 0.813    0.044    0.672      0.813    0.736      0.707    0.924     0.813     4
+                 0.771    0.007    0.925      0.771    0.841      0.829    0.981     0.936     5
+                 0.813    0.000    1.000      0.813    0.897      0.892    0.967     0.935     6
+                 0.333    0.019    0.667      0.333    0.444      0.433    0.443     0.297     7
+                 0.708    0.030    0.723      0.708    0.716      0.685    0.951     0.825     8
+                 0.854    0.012    0.891      0.854    0.872      0.859    0.994     0.954     9
+Weighted Avg.    0.694    0.034    0.733      0.694    0.701      0.675    0.900     0.754     
+
+=== BayesNet TAN on Top 10  (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 33 12  1  0  0  0  0  1  1  0 |  a = 0
+ 21 21  0  1  1  0  0  0  3  1 |  b = 1
+  0  6 36  0  1  0  0  5  0  0 |  c = 2
+  2  5  1 37  2  0  0  0  1  0 |  d = 3
+  0  1  4  1 39  0  0  1  0  2 |  e = 4
+  3  2  1  0  1 37  0  1  2  1 |  f = 5
+  4  2  0  1  1  1 39  0  0  0 |  g = 6
+ 13  1  1  0 11  0  0 16  6  0 |  h = 7
+  0  6  4  0  2  1  0  0 34  1 |  i = 8
+  4  2  0  0  0  1  0  0  0 41 |  j = 9
+
+=== BayesNet HillClimber on Top 10 - 1 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=96 #classindex=95
+Network structure (nodes followed by parents)
+pixel 1123(4): class 
+pixel 1171(5): class 
+pixel 1172(5): class 
+pixel 1220(5): class 
+pixel 1221(4): class 
+pixel 1468(8): class 
+pixel 1469(6): class 
+pixel 1472(6): class 
+pixel 1518(8): class 
+pixel 1519(6): class 
+pixel 997(5): class 
+pixel 998(5): class 
+pixel 1046(4): class 
+pixel 1094(6): class 
+pixel 1142(6): class 
+pixel 1143(5): class 
+pixel 1190(6): class 
+pixel 1714(4): class 
+pixel 1761(5): class 
+pixel 1035(5): class 
+pixel 1036(6): class 
+pixel 1081(5): class 
+pixel 1082(5): class 
+pixel 1083(7): class 
+pixel 1084(7): class 
+pixel 1130(6): class 
+pixel 1131(5): class 
+pixel 1132(5): class 
+pixel 1179(5): class 
+pixel 1224(6): class 
+pixel 1272(7): class 
+pixel 1320(7): class 
+pixel 1321(4): class 
+pixel 1369(4): class 
+pixel 1417(5): class 
+pixel 1648(5): class 
+pixel 1649(4): class 
+pixel 1696(4): class 
+pixel 1697(5): class 
+pixel 1043(4): class 
+pixel 1237(5): class 
+pixel 1285(5): class 
+pixel 1800(5): class 
+pixel 1801(5): class 
+pixel 1802(6): class 
+pixel 1848(4): class 
+pixel 1849(6): class 
+pixel 1850(6): class 
+pixel 1897(5): class 
+pixel 1222(4): class 
+pixel 1270(4): class 
+pixel 1271(4): class 
+pixel 1318(5): class 
+pixel 1319(4): class 
+pixel 1367(4): class 
+pixel 1368(4): class 
+pixel 1415(4): class 
+pixel 1416(7): class 
+pixel 1138(6): class 
+pixel 1185(6): class 
+pixel 1186(6): class 
+pixel 1689(4): class 
+pixel 1737(5): class 
+pixel 1738(4): class 
+pixel 1786(4): class 
+pixel 1787(4): class 
+pixel 1885(4): class 
+pixel 1934(4): class 
+pixel 1071(7): class 
+pixel 1072(6): class 
+pixel 1119(6): class 
+pixel 1120(7): class 
+pixel 1121(4): class 
+pixel 1167(4): class 
+pixel 1168(5): class 
+pixel 1169(4): class 
+pixel 1216(5): class 
+pixel 1217(4): class 
+pixel 1232(6): class 
+pixel 1280(6): class 
+pixel 1328(6): class 
+pixel 1375(5): class 
+pixel 1376(7): class 
+pixel 1423(5): class 
+pixel 1470(6): class 
+pixel 1471(7): class 
+pixel 1317(5): class 
+pixel 1362(5): class 
+pixel 1363(4): class 
+pixel 1364(5): class 
+pixel 1365(4): class 
+pixel 1410(4): class 
+pixel 1411(5): class 
+pixel 1412(5): class 
+pixel 1413(5): class 
+class(10): 
+LogScore Bayes: -216473.77528670442
+LogScore BDeu: -231297.28695294313
+LogScore MDL: -228823.86573768468
+LogScore ENTROPY: -213858.68645717387
+LogScore AIC: -217817.6864571739
+
+=== BayesNet HillClimber - 1 parents - on Top 10 (stats) ===
+Correctly Classified Instances         250               52.0833 %
+Incorrectly Classified Instances       230               47.9167 %
+Kappa statistic                          0.4676
+Mean absolute error                      0.096 
+Root mean squared error                  0.304 
+Relative absolute error                 53.3334 %
+Root relative squared error            101.3307 %
+Total Number of Instances              480     
+
+=== BayesNet HillClimber - 1 parents - on Top 10 (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.521    0.185    0.238      0.521    0.327      0.244    0.808     0.311     0
+                 0.292    0.072    0.311      0.292    0.301      0.226    0.750     0.299     1
+                 0.875    0.076    0.560      0.875    0.683      0.660    0.947     0.837     2
+                 0.646    0.005    0.939      0.646    0.765      0.760    0.896     0.794     3
+                 0.396    0.019    0.704      0.396    0.507      0.491    0.776     0.561     4
+                 0.667    0.005    0.941      0.667    0.780      0.774    0.875     0.755     5
+                 0.729    0.088    0.479      0.729    0.579      0.536    0.885     0.737     6
+                 0.375    0.067    0.383      0.375    0.379      0.311    0.451     0.328     7
+                 0.146    0.000    1.000      0.146    0.255      0.365    0.695     0.395     8
+                 0.563    0.016    0.794      0.563    0.659      0.639    0.907     0.695     9
+Weighted Avg.    0.521    0.053    0.635      0.521    0.523      0.501    0.799     0.571     
+
+=== BayesNet HillClimber on Top - 1 parents - 10  (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 25 12  6  0  2  0  2  1  0  0 |  a = 0
+ 20 14  0  0  1  1  8  2  0  2 |  b = 1
+  0  1 42  0  0  0  0  5  0  0 |  c = 2
+  6  2  5 31  2  0  0  1  0  1 |  d = 3
+  2  1  5  2 19  0  2 15  0  2 |  e = 4
+ 10  0  0  0  0 32  4  1  0  1 |  f = 5
+  9  1  0  0  2  0 35  1  0  0 |  g = 6
+ 23  0  7  0  0  0  0 18  0  0 |  h = 7
+  7  7  7  0  1  0 15  3  7  1 |  i = 8
+  3  7  3  0  0  1  7  0  0 27 |  j = 9
+
+=== BayesNet HillClimber on Top 10 - 2 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=96 #classindex=95
+Network structure (nodes followed by parents)
+pixel 1123(4): class pixel 1320 
+pixel 1171(5): pixel 1123 pixel 1220 
+pixel 1172(5): pixel 1171 pixel 1220 
+pixel 1220(5): class pixel 1221 
+pixel 1221(4): class pixel 1222 
+pixel 1468(8): pixel 1469 pixel 1321 
+pixel 1469(6): pixel 1470 pixel 1185 
+pixel 1472(6): pixel 1519 pixel 1376 
+pixel 1518(8): class pixel 1376 
+pixel 1519(6): pixel 1518 pixel 1714 
+pixel 997(5): pixel 1094 pixel 1321 
+pixel 998(5): pixel 1046 pixel 997 
+pixel 1046(4): pixel 1094 pixel 997 
+pixel 1094(6): pixel 1142 
+pixel 1142(6): pixel 1190 
+pixel 1143(5): pixel 998 pixel 1190 
+pixel 1190(6): pixel 1237 pixel 1761 
+pixel 1714(4): pixel 1761 pixel 1190 
+pixel 1761(5): class pixel 1849 
+pixel 1035(5): pixel 1083 pixel 1082 
+pixel 1036(6): class pixel 1083 
+pixel 1081(5): pixel 1082 pixel 1224 
+pixel 1082(5): pixel 1130 pixel 1220 
+pixel 1083(7): class pixel 1270 
+pixel 1084(7): pixel 1036 pixel 1131 
+pixel 1130(6): class pixel 1083 
+pixel 1131(5): pixel 1083 pixel 1130 
+pixel 1132(5): pixel 1084 pixel 1179 
+pixel 1179(5): pixel 1131 pixel 1130 
+pixel 1224(6): pixel 1272 pixel 1271 
+pixel 1272(7): pixel 1320 pixel 1271 
+pixel 1320(7): pixel 1368 pixel 1084 
+pixel 1321(4): pixel 1369 pixel 1320 
+pixel 1369(4): class pixel 1368 
+pixel 1417(5): pixel 1416 pixel 1369 
+pixel 1648(5): pixel 1697 pixel 1410 
+pixel 1649(4): pixel 1648 pixel 1697 
+pixel 1696(4): pixel 1648 pixel 1697 
+pixel 1697(5): class pixel 1801 
+pixel 1043(4): pixel 1138 pixel 1119 
+pixel 1237(5): pixel 1285 pixel 1043 
+pixel 1285(5): class pixel 1802 
+pixel 1800(5): pixel 1801 pixel 1802 
+pixel 1801(5): pixel 1802 
+pixel 1802(6): pixel 1849 pixel 1043 
+pixel 1848(4): pixel 1849 pixel 1800 
+pixel 1849(6): pixel 1850 
+pixel 1850(6): class pixel 1232 
+pixel 1897(5): pixel 1849 pixel 1143 
+pixel 1222(4): pixel 1270 pixel 1179 
+pixel 1270(4): pixel 1318 pixel 1317 
+pixel 1271(4): class pixel 1222 
+pixel 1318(5): class pixel 1317 
+pixel 1319(4): pixel 1271 pixel 1318 
+pixel 1367(4): pixel 1319 pixel 1132 
+pixel 1368(4): pixel 1416 pixel 1367 
+pixel 1415(4): pixel 1367 pixel 1132 
+pixel 1416(7): pixel 1415 pixel 1084 
+pixel 1138(6): pixel 1186 pixel 1071 
+pixel 1185(6): class pixel 1224 
+pixel 1186(6): class pixel 1185 
+pixel 1689(4): pixel 1737 pixel 1046 
+pixel 1737(5): class pixel 1697 
+pixel 1738(4): pixel 1689 pixel 1737 
+pixel 1786(4): pixel 1738 pixel 1737 
+pixel 1787(4): pixel 1738 pixel 1689 
+pixel 1885(4): pixel 1787 pixel 1738 
+pixel 1934(4): pixel 1885 pixel 1786 
+pixel 1071(7): pixel 1119 pixel 1167 
+pixel 1072(6): pixel 1120 pixel 1071 
+pixel 1119(6): pixel 1167 
+pixel 1120(7): pixel 1071 pixel 1119 
+pixel 1121(4): pixel 1169 pixel 1072 
+pixel 1167(4): class 
+pixel 1168(5): pixel 1120 pixel 1082 
+pixel 1169(4): pixel 1217 pixel 1120 
+pixel 1216(5): pixel 1168 pixel 1167 
+pixel 1217(4): class pixel 1216 
+pixel 1232(6): class pixel 1185 
+pixel 1280(6): pixel 1232 
+pixel 1328(6): pixel 1280 
+pixel 1375(5): pixel 1423 pixel 1280 
+pixel 1376(7): pixel 1328 
+pixel 1423(5): pixel 1471 pixel 1232 
+pixel 1470(6): pixel 1471 pixel 1423 
+pixel 1471(7): pixel 1518 pixel 1472 
+pixel 1317(5): pixel 1365 pixel 1364 
+pixel 1362(5): pixel 1363 pixel 1217 
+pixel 1363(4): pixel 1411 pixel 1364 
+pixel 1364(5): pixel 1412 pixel 1167 
+pixel 1365(4): class pixel 1364 
+pixel 1410(4): pixel 1362 pixel 1411 
+pixel 1411(5): class pixel 1071 
+pixel 1412(5): class pixel 1411 
+pixel 1413(5): pixel 1365 pixel 1412 
+class(10): 
+LogScore Bayes: -100444.36311789358
+LogScore BDeu: -165729.27687002392
+LogScore MDL: -156543.6463241027
+LogScore ENTROPY: -108011.70977889605
+LogScore AIC: -120850.70977889579
+
+=== BayesNet HillClimber - 2 parents - on Top 10 (stats) ===
+Correctly Classified Instances         326               67.9167 %
+Incorrectly Classified Instances       154               32.0833 %
+Kappa statistic                          0.6435
+Mean absolute error                      0.0747
+Root mean squared error                  0.2154
+Relative absolute error                 41.5254 %
+Root relative squared error             71.8118 %
+Total Number of Instances              480     
+
+=== BayesNet HillClimber - 2 parents - on Top 10 (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.542    0.116    0.342      0.542    0.419      0.350    0.878     0.462     0
+                 0.396    0.060    0.422      0.396    0.409      0.345    0.864     0.395     1
+                 0.896    0.030    0.768      0.896    0.827      0.809    0.983     0.889     2
+                 0.729    0.016    0.833      0.729    0.778      0.757    0.967     0.867     3
+                 0.667    0.023    0.762      0.667    0.711      0.683    0.932     0.785     4
+                 0.813    0.021    0.813      0.813    0.813      0.792    0.973     0.869     5
+                 0.833    0.002    0.976      0.833    0.899      0.892    0.949     0.914     6
+                 0.354    0.019    0.680      0.354    0.466      0.453    0.607     0.348     7
+                 0.667    0.049    0.604      0.667    0.634      0.592    0.926     0.700     8
+                 0.896    0.021    0.827      0.896    0.860      0.845    0.990     0.943     9
+Weighted Avg.    0.679    0.036    0.703      0.679    0.681      0.652    0.907     0.717     
+
+=== BayesNet HillClimber on Top - 2 parents - 10  (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 26 10  3  1  0  1  1  0  5  1 |  a = 0
+ 18 19  0  1  2  0  0  1  5  2 |  b = 1
+  1  0 43  0  0  0  0  4  0  0 |  c = 2
+  6  3  1 35  1  0  0  0  2  0 |  d = 3
+  0  4  4  0 32  3  0  3  1  1 |  e = 4
+  2  0  0  0  1 39  0  0  3  3 |  f = 5
+  3  1  1  1  2  0 40  0  0  0 |  g = 6
+ 18  5  2  0  2  0  0 17  4  0 |  h = 7
+  1  3  1  2  2  5  0  0 32  2 |  i = 8
+  1  0  1  2  0  0  0  0  1 43 |  j = 9
+
+=== BayesNet HillClimber on Top 10 - 3 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=96 #classindex=95
+Network structure (nodes followed by parents)
+pixel 1123(4): class pixel 1320 pixel 1363 
+pixel 1171(5): pixel 1123 pixel 1169 pixel 1221 
+pixel 1172(5): pixel 1171 pixel 1220 
+pixel 1220(5): pixel 1221 pixel 1171 
+pixel 1221(4): pixel 1222 pixel 1317 pixel 1131 
+pixel 1468(8): pixel 1469 pixel 1321 
+pixel 1469(6): pixel 1470 pixel 1185 
+pixel 1472(6): pixel 1519 pixel 1376 
+pixel 1518(8): class pixel 1376 
+pixel 1519(6): pixel 1518 pixel 1714 
+pixel 997(5): pixel 1094 pixel 1321 pixel 1237 
+pixel 998(5): pixel 1046 pixel 997 
+pixel 1046(4): pixel 1094 pixel 997 
+pixel 1094(6): pixel 1142 
+pixel 1142(6): pixel 1190 
+pixel 1143(5): pixel 998 pixel 1190 
+pixel 1190(6): pixel 1237 pixel 1043 
+pixel 1714(4): pixel 1761 pixel 1190 
+pixel 1761(5): pixel 1849 pixel 1696 pixel 1143 
+pixel 1035(5): pixel 1083 pixel 1082 
+pixel 1036(6): class pixel 1083 
+pixel 1081(5): pixel 1082 pixel 1321 pixel 1130 
+pixel 1082(5): pixel 1130 pixel 1220 
+pixel 1083(7): class pixel 1270 pixel 1367 
+pixel 1084(7): pixel 1036 pixel 1131 
+pixel 1130(6): class pixel 1083 
+pixel 1131(5): pixel 1083 pixel 1130 
+pixel 1132(5): pixel 1084 pixel 1179 
+pixel 1179(5): pixel 1131 pixel 1130 
+pixel 1224(6): pixel 1272 pixel 1271 
+pixel 1272(7): pixel 1320 pixel 1271 
+pixel 1320(7): pixel 1368 pixel 1319 pixel 1416 
+pixel 1321(4): pixel 1369 pixel 1320 
+pixel 1369(4): pixel 1368 pixel 1417 pixel 1320 
+pixel 1417(5): pixel 1416 pixel 1221 
+pixel 1648(5): pixel 1697 pixel 1410 
+pixel 1649(4): pixel 1648 pixel 1697 
+pixel 1696(4): pixel 1648 pixel 1697 
+pixel 1697(5): class pixel 1801 pixel 1362 
+pixel 1043(4): pixel 1138 pixel 1119 
+pixel 1237(5): pixel 1285 pixel 1043 
+pixel 1285(5): pixel 1802 pixel 1043 pixel 1369 
+pixel 1800(5): pixel 1801 pixel 1802 
+pixel 1801(5): pixel 1802 
+pixel 1802(6): pixel 1849 pixel 1043 pixel 1850 
+pixel 1848(4): pixel 1849 pixel 1800 
+pixel 1849(6): pixel 1850 
+pixel 1850(6): class pixel 1232 pixel 1043 
+pixel 1897(5): pixel 1849 pixel 1143 
+pixel 1222(4): pixel 1270 
+pixel 1270(4): pixel 1318 pixel 1317 
+pixel 1271(4): pixel 1222 pixel 1318 
+pixel 1318(5): class pixel 1317 
+pixel 1319(4): pixel 1271 pixel 1318 
+pixel 1367(4): pixel 1319 pixel 1318 
+pixel 1368(4): pixel 1416 pixel 1367 pixel 1417 
+pixel 1415(4): pixel 1367 pixel 1132 
+pixel 1416(7): pixel 1415 pixel 1084 
+pixel 1138(6): pixel 1186 pixel 1071 
+pixel 1185(6): class pixel 1224 
+pixel 1186(6): class pixel 1185 
+pixel 1689(4): pixel 1737 pixel 1046 
+pixel 1737(5): class pixel 1697 
+pixel 1738(4): pixel 1689 pixel 1737 
+pixel 1786(4): pixel 1738 pixel 1737 pixel 1787 
+pixel 1787(4): pixel 1738 pixel 1689 pixel 1696 
+pixel 1885(4): pixel 1787 pixel 1738 
+pixel 1934(4): pixel 1885 pixel 1786 
+pixel 1071(7): pixel 1119 pixel 1167 
+pixel 1072(6): pixel 1120 pixel 1071 
+pixel 1119(6): pixel 1167 
+pixel 1120(7): pixel 1071 pixel 1119 pixel 1167 
+pixel 1121(4): pixel 1169 pixel 1072 
+pixel 1167(4): class 
+pixel 1168(5): pixel 1120 pixel 1167 
+pixel 1169(4): pixel 1217 pixel 1120 
+pixel 1216(5): pixel 1168 pixel 1167 
+pixel 1217(4): pixel 1216 pixel 1168 
+pixel 1232(6): class pixel 1185 
+pixel 1280(6): pixel 1232 
+pixel 1328(6): pixel 1280 
+pixel 1375(5): pixel 1423 pixel 1280 
+pixel 1376(7): pixel 1328 
+pixel 1423(5): pixel 1471 pixel 1232 
+pixel 1470(6): pixel 1471 pixel 1423 
+pixel 1471(7): pixel 1518 pixel 1472 
+pixel 1317(5): pixel 1365 pixel 1364 
+pixel 1362(5): pixel 1363 pixel 1217 pixel 1411 
+pixel 1363(4): pixel 1411 pixel 1364 
+pixel 1364(5): pixel 1412 pixel 1167 
+pixel 1365(4): class pixel 1364 pixel 1167 
+pixel 1410(4): pixel 1362 pixel 1411 
+pixel 1411(5): class pixel 1071 
+pixel 1412(5): class pixel 1411 pixel 1169 
+pixel 1413(5): pixel 1365 pixel 1412 
+class(10): 
+LogScore Bayes: -99356.85879007878
+LogScore BDeu: -223252.8648502355
+LogScore MDL: -195226.70119598898
+LogScore ENTROPY: -115154.10895071499
+LogScore AIC: -136337.1089507125
+
+=== BayesNet HillClimber - 3 parents - on Top 10 (stats) ===
+Correctly Classified Instances         320               66.6667 %
+Incorrectly Classified Instances       160               33.3333 %
+Kappa statistic                          0.6296
+Mean absolute error                      0.0784
+Root mean squared error                  0.2141
+Relative absolute error                 43.5566 %
+Root relative squared error             71.3788 %
+Total Number of Instances              480     
+
+=== BayesNet HillClimber - 3 parents - on Top 10 (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.521    0.090    0.391      0.521    0.446      0.380    0.873     0.453     0
+                 0.333    0.097    0.276      0.333    0.302      0.217    0.843     0.369     1
+                 0.854    0.030    0.759      0.854    0.804      0.782    0.982     0.871     2
+                 0.750    0.014    0.857      0.750    0.800      0.782    0.962     0.850     3
+                 0.750    0.039    0.679      0.750    0.713      0.680    0.933     0.770     4
+                 0.771    0.030    0.740      0.771    0.755      0.727    0.976     0.846     5
+                 0.833    0.009    0.909      0.833    0.870      0.857    0.953     0.910     6
+                 0.292    0.016    0.667      0.292    0.406      0.404    0.563     0.347     7
+                 0.625    0.035    0.667      0.625    0.645      0.608    0.930     0.729     8
+                 0.938    0.009    0.918      0.938    0.928      0.920    0.992     0.959     9
+Weighted Avg.    0.667    0.037    0.686      0.667    0.667      0.636    0.901     0.710     
+
+=== BayesNet HillClimber on Top - 3 parents - 10  (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 25 10  5  3  1  1  1  0  2  0 |  a = 0
+ 19 16  0  1  5  2  1  1  3  0 |  b = 1
+  1  0 41  0  1  0  0  5  0  0 |  c = 2
+  4  3  2 36  1  0  0  0  1  1 |  d = 3
+  2  2  2  0 36  4  0  1  1  0 |  e = 4
+  2  3  0  0  1 37  0  0  2  3 |  f = 5
+  2  2  1  1  2  0 40  0  0  0 |  g = 6
+  5 17  2  0  5  0  0 14  5  0 |  h = 7
+  3  4  1  1  1  6  2  0 30  0 |  i = 8
+  1  1  0  0  0  0  0  0  1 45 |  j = 9
+
+Update: A newer version (2.16.00) of TigerJython is available.
+=== BayesNet HillClimber on Top 10 - 4 parents (network) ===
+Bayes Network Classifier
+not using ADTree
+#attributes=96 #classindex=95
+Network structure (nodes followed by parents)
+pixel 1123(4): class pixel 1320 pixel 1363 
+pixel 1171(5): pixel 1123 pixel 1169 pixel 1221 
+pixel 1172(5): pixel 1171 pixel 1220 
+pixel 1220(5): pixel 1221 pixel 1171 
+pixel 1221(4): pixel 1222 pixel 1317 pixel 1131 
+pixel 1468(8): pixel 1469 pixel 1321 
+pixel 1469(6): pixel 1470 pixel 1185 
+pixel 1472(6): pixel 1519 pixel 1376 
+pixel 1518(8): class pixel 1376 
+pixel 1519(6): pixel 1518 pixel 1714 
+pixel 997(5): pixel 1094 pixel 1321 pixel 1237 
+pixel 998(5): pixel 1046 pixel 997 
+pixel 1046(4): pixel 1094 pixel 997 
+pixel 1094(6): pixel 1142 
+pixel 1142(6): pixel 1190 
+pixel 1143(5): pixel 998 pixel 1190 
+pixel 1190(6): pixel 1237 pixel 1043 
+pixel 1714(4): pixel 1761 pixel 1190 
+pixel 1761(5): pixel 1849 pixel 1696 pixel 1143 
+pixel 1035(5): pixel 1083 pixel 1082 
+pixel 1036(6): class pixel 1083 
+pixel 1081(5): pixel 1082 pixel 1321 pixel 1130 
+pixel 1082(5): pixel 1130 pixel 1220 
+pixel 1083(7): class pixel 1270 pixel 1367 
+pixel 1084(7): pixel 1036 pixel 1131 
+pixel 1130(6): class pixel 1083 
+pixel 1131(5): pixel 1083 pixel 1130 
+pixel 1132(5): pixel 1084 pixel 1179 
+pixel 1179(5): pixel 1131 pixel 1130 
+pixel 1224(6): pixel 1272 pixel 1271 
+pixel 1272(7): pixel 1320 pixel 1271 
+pixel 1320(7): pixel 1368 pixel 1319 pixel 1416 
+pixel 1321(4): pixel 1369 pixel 1320 
+pixel 1369(4): pixel 1368 pixel 1417 pixel 1320 
+pixel 1417(5): pixel 1416 pixel 1221 
+pixel 1648(5): pixel 1697 pixel 1410 
+pixel 1649(4): pixel 1648 pixel 1697 
+pixel 1696(4): pixel 1648 pixel 1697 
+pixel 1697(5): class pixel 1801 pixel 1362 
+pixel 1043(4): pixel 1138 pixel 1119 
+pixel 1237(5): pixel 1285 pixel 1043 
+pixel 1285(5): pixel 1802 pixel 1043 pixel 1369 
+pixel 1800(5): pixel 1801 pixel 1802 
+pixel 1801(5): pixel 1802 
+pixel 1802(6): pixel 1849 pixel 1043 pixel 1850 
+pixel 1848(4): pixel 1849 pixel 1800 
+pixel 1849(6): pixel 1850 
+pixel 1850(6): class pixel 1232 pixel 1043 
+pixel 1897(5): pixel 1849 pixel 1143 
+pixel 1222(4): pixel 1270 
+pixel 1270(4): pixel 1318 pixel 1317 
+pixel 1271(4): pixel 1222 pixel 1318 
+pixel 1318(5): class pixel 1317 
+pixel 1319(4): pixel 1271 pixel 1318 
+pixel 1367(4): pixel 1319 pixel 1318 
+pixel 1368(4): pixel 1416 pixel 1367 pixel 1417 
+pixel 1415(4): pixel 1367 pixel 1132 
+pixel 1416(7): pixel 1415 pixel 1084 
+pixel 1138(6): pixel 1186 pixel 1071 
+pixel 1185(6): class pixel 1224 
+pixel 1186(6): class pixel 1185 
+pixel 1689(4): pixel 1737 pixel 1046 
+pixel 1737(5): class pixel 1697 
+pixel 1738(4): pixel 1689 pixel 1737 
+pixel 1786(4): pixel 1738 pixel 1737 pixel 1787 
+pixel 1787(4): pixel 1738 pixel 1689 pixel 1696 
+pixel 1885(4): pixel 1787 pixel 1738 
+pixel 1934(4): pixel 1885 pixel 1786 
+pixel 1071(7): pixel 1119 pixel 1167 
+pixel 1072(6): pixel 1120 pixel 1071 
+pixel 1119(6): pixel 1167 
+pixel 1120(7): pixel 1071 pixel 1119 pixel 1167 
+pixel 1121(4): pixel 1169 pixel 1072 
+pixel 1167(4): class 
+pixel 1168(5): pixel 1120 pixel 1167 
+pixel 1169(4): pixel 1217 pixel 1120 
+pixel 1216(5): pixel 1168 pixel 1167 
+pixel 1217(4): pixel 1216 pixel 1168 
+pixel 1232(6): class pixel 1185 
+pixel 1280(6): pixel 1232 
+pixel 1328(6): pixel 1280 
+pixel 1375(5): pixel 1423 pixel 1280 
+pixel 1376(7): pixel 1328 
+pixel 1423(5): pixel 1471 pixel 1232 
+pixel 1470(6): pixel 1471 pixel 1423 
+pixel 1471(7): pixel 1518 pixel 1472 
+pixel 1317(5): pixel 1365 pixel 1364 
+pixel 1362(5): pixel 1363 pixel 1217 pixel 1411 
+pixel 1363(4): pixel 1411 pixel 1364 
+pixel 1364(5): pixel 1412 pixel 1167 
+pixel 1365(4): class pixel 1364 pixel 1167 
+pixel 1410(4): pixel 1362 pixel 1411 
+pixel 1411(5): class pixel 1071 
+pixel 1412(5): class pixel 1411 pixel 1169 
+pixel 1413(5): pixel 1365 pixel 1412 
+class(10): 
+LogScore Bayes: -99356.85879007878
+LogScore BDeu: -223252.8648502355
+LogScore MDL: -195226.70119598898
+LogScore ENTROPY: -115154.10895071499
+LogScore AIC: -136337.1089507125
+
+=== BayesNet HillClimber - 4 parents - on Top 10 (stats) ===
+Correctly Classified Instances         320               66.6667 %
+Incorrectly Classified Instances       160               33.3333 %
+Kappa statistic                          0.6296
+Mean absolute error                      0.0784
+Root mean squared error                  0.2141
+Relative absolute error                 43.5566 %
+Root relative squared error             71.3788 %
+Total Number of Instances              480     
+
+=== BayesNet HillClimber - 4 parents - on Top 10 (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.521    0.090    0.391      0.521    0.446      0.380    0.873     0.453     0
+                 0.333    0.097    0.276      0.333    0.302      0.217    0.843     0.369     1
+                 0.854    0.030    0.759      0.854    0.804      0.782    0.982     0.871     2
+                 0.750    0.014    0.857      0.750    0.800      0.782    0.962     0.850     3
+                 0.750    0.039    0.679      0.750    0.713      0.680    0.933     0.770     4
+                 0.771    0.030    0.740      0.771    0.755      0.727    0.976     0.846     5
+                 0.833    0.009    0.909      0.833    0.870      0.857    0.953     0.910     6
+                 0.292    0.016    0.667      0.292    0.406      0.404    0.563     0.347     7
+                 0.625    0.035    0.667      0.625    0.645      0.608    0.930     0.729     8
+                 0.938    0.009    0.918      0.938    0.928      0.920    0.992     0.959     9
+Weighted Avg.    0.667    0.037    0.686      0.667    0.667      0.636    0.901     0.710     
+
+=== BayesNet HillClimber on Top - 4 parents - 10  (confusion matrix) ===
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 25 10  5  3  1  1  1  0  2  0 |  a = 0
+ 19 16  0  1  5  2  1  1  3  0 |  b = 1
+  1  0 41  0  1  0  0  5  0  0 |  c = 2
+  4  3  2 36  1  0  0  0  1  1 |  d = 3
+  2  2  2  0 36  4  0  1  1  0 |  e = 4
+  2  3  0  0  1 37  0  0  2  3 |  f = 5
+  2  2  1  1  2  0 40  0  0  0 |  g = 6
+  5 17  2  0  5  0  0 14  5  0 |  h = 7
+  3  4  1  1  1  6  2  0 30  0 |  i = 8
+  1  1  0  0  0  0  0  0  1 45 |  j = 9
+
+run a basian network (k2)on reduced dimentionality data
+=== BayesNet K2 on Top 3 - (stats) ===
+Correctly Classified Instances       11577               91.4527 %
+Incorrectly Classified Instances      1082                8.5473 %
+Kappa statistic                          0.9012
+Mean absolute error                      0.032 
+Root mean squared error                  0.1139
+Relative absolute error                 18.4882 %
+Root relative squared error             38.7023 %
+Total Number of Instances            12659     
+
+=== BayesNet K2 on Top 3  (class details) ===
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.723    0.029    0.757      0.723    0.739      0.708    0.969     0.817     0
+                 0.828    0.031    0.821      0.828    0.825      0.795    0.980     0.893     1
+                 0.955    0.002    0.930      0.955    0.942      0.940    0.999     0.982     2
+                 0.973    0.005    0.959      0.973    0.966      0.962    0.996     0.990     3
+                 0.949    0.008    0.958      0.949    0.953      0.944    0.997     0.987     4
+                 0.969    0.008    0.960      0.969    0.964      0.957    0.998     0.991     5
+                 0.942    0.000    0.993      0.942    0.967      0.965    0.994     0.982     6
+                 0.863    0.002    0.908      0.863    0.885      0.883    0.989     0.944     7
+                 0.974    0.011    0.944      0.974    0.959      0.951    0.998     0.992     8
+                 0.970    0.001    0.951      0.970    0.960      0.959    0.999     0.991     9
+Weighted Avg.    0.915    0.013    0.914      0.915    0.914      0.901    0.991     0.955     
+
+=== BayesNet K2 on Top 3 (confusion matrix) ===
+    a    b    c    d    e    f    g    h    i    j   <-- classified as
+ 1019  313    7    4   19   21    2    3   21    1 |    a = 0
+  273 1541    2    4    7    9    0    1   22    1 |    b = 1
+    2    2  400    0    0    1    0    9    2    3 |    c = 2
+    4    1    0 1284   25    1    0    1    4    0 |    d = 3
+   19    8    4   19 1992   23    0    2   33    0 |    e = 4
+   10    3    7   16   17 2092    0    0   15    0 |    f = 5
+    4    2    0    8    1    5  735    0   16    9 |    g = 6
+   14    0    8    0    6    2    0  207    3    0 |    h = 7
+    1    6    1    4   12   24    1    4 2016    1 |    i = 8
+    0    0    1    0    1    1    2    1    3  291 |    j = 9
