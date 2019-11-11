@@ -5,5 +5,5 @@
 ## Inclusions
 
 ### Naive Bayes
-### Complex Bayes Nets – (Python2 with Weka API) -  see: BaysianNetwork_Output_results.txt for results
+### Complex Bayes Nets – (Python2 with Weka API) -  see: BaysianNetwork_Output_results.txt and  BaysianNetworks_images folder for results
 ### Clustering.ipynb (Python3 - Jupyter Notbook)
