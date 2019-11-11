@@ -163,7 +163,7 @@ for x in range (0,3): # change to (0,4) to run on full balaced data set - very s
         # adjust tree layout
         gv.layoutGraph()
         
-
+#------------now look at reduced dataset from Tsne 3 dimensions------------------
     
 print("run a basian network (k2)on reduced dimentionality data")        
 BN = BayesNet()
